@@ -71,21 +71,21 @@ export default function MovieBooking() {
     const handleBooking = () => {
       alert(`seats ${selectedSeats.map((index) => index+1).join(", ")} booked for ${selectedScreen.movie.title} at ${selectedScreen.time}`)
       SCREENS = SCREENS.map(screen => {
-            if(screen.id === selectedScreen?.id){
-              let seats = screen.seats;
-              selectedSeats.map((seat)) => (seats[seat] = 0))
-              return {
-                ...screen,
-                seats
-              }
-            }
-            return screen
-        })
-        
+         if(screen.id === selectedScreen?.id){
+          let seats = screen.seats;
+          selectedSeats.map((seat) => (seats[seat] = 0))
+          return {
+            ...screen,
+            seats
+          }
+         }
+         return  screen
+})
       setSelectedMovie(null)
       setSelectedScreen(null)
-      setSelectedSeats{[]}
+      setSelectedSeats([])
     }
+
   
 
   return (
@@ -174,7 +174,7 @@ export default function MovieBooking() {
           {
             selectedScreen && selectedSeats?.length > 0 && (
               <div>
-                <h3>Selected Seats: <>{selectedSeats.map(index => index+1).join*","}</></h3>
+                <h3>Selected Seats: <>{selectedSeats.map(index => index+1).join(",")}</></h3>
                 <h3> NO of tickets: {selectedSeats?.length}</h3>
               </div>
             )
