@@ -11,7 +11,7 @@ function App() {
   const [icon, setIcon] = useState("");
 
   const findWeather = async ()=>{
-
+ try{
  const apiKey = "e73a18404546b07bc40f027fa8b2603d";
  const unit = "metric";
  const url = "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -20,17 +20,27 @@ function App() {
  apiKey +
  "&units=" +
  unit;
+
+ 
 const response = await axios.get(url);
 const temp =  await response.data.main.temp;
 const WeatherDescription = response.data.weather[0].description;
 const icon = await response.data.weather[0].icon;
-const imageUrl = "https://openweathermap.org/img/wn" + icon + "@2x.png";
+const imageUrl = "https://openweathermap.org/img/wn/" + icon + "@2x.png";
 setTemp(temp);
 setDescription(WeatherDescription);
 setIcon(imageUrl);
 setInput("");
-  }
-  return (
+
+
+} catch (error){
+  alert('Invalid city name');
+ }
+
+
+
+}
+return (
     <div className="App">
       {temp === "" ? (
       <Inputer input={input} setInput={setInput} findWeather={findWeather}/> 
