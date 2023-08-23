@@ -3,6 +3,7 @@ import './App.css';
 import Inputer from "./components/Input";
 import axios from 'axios';
 import { Result } from './components/Result';
+import WEATHER_API_KEY from './components/apikey';
 
 function App() {
   const [input, setInput] = useState("");
@@ -12,7 +13,7 @@ function App() {
 
   const findWeather = async ()=>{
  try{
- const apiKey = "e73a18404546b07bc40f027fa8b2603d";
+ const apiKey = WEATHER_API_KEY;
  const unit = "metric";
  const url = "https://api.openweathermap.org/data/2.5/weather?q=" +
  input + 

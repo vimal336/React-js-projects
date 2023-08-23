@@ -1,21 +1,25 @@
-.result{
-    height: 100vh;
-    display: grid;
-    place-items: center;
+.result {
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
-.result_box{
-    padding: 10%;
-    text-align: center;
-    background-image: url(https://tse2.mm.bing.net/th?id=OIP.53GLjJ3xsaMD0NekqwphfQHaE7&pid=Api&P=0&h=180);
-    /* background-color: #4baeff; */
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
+.result_box {
+  padding: 10%;
+  color: white;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-
-.result .result_box Button{
-   background-color: grey !important;
-} 
+.result .result_box Button {
+  background-color: grey !important;
+}
