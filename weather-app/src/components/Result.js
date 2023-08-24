@@ -6,7 +6,7 @@ export const Result = ({temp, icon, desc, setTemp}) => {
   return (
     <div className='result'>
         <div className='result_box'>
-              <h1> Temp: {temp} </h1>
+              <h1> Temp: {temp} °C </h1>
               <p>{desc}</p>
                <img src={icon} alt='logo'/> <br/>
                <Button variant='contained' onClick={() => {setTemp("");
