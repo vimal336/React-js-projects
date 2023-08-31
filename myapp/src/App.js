@@ -1,16 +1,14 @@
-import Greet from "./components/Greet";
-import Welcome from "./components/welcome";
 
-function App() {
+import React from 'react'
+import advice from './components/advice'
+
+export const App = () => {
   return (
-    <div className="App">
-      <h1>hello</h1>
-      <Greet/>
-      <Welcome/>
-    
-    
+    <div>
+
+      <advice/>
+
     </div>
-  );
+  )
 }
 
-export default App;
