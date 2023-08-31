@@ -9,13 +9,12 @@ function App() {
       const data = await res.json();
       setAdvice(data.slip.advice);
       setadviceNumber(data.slip.id);
-
-
-    }
+   }
   
     return (
-      <div>
-        <h1> ID: {adviceNumber} Advice :{advice} </h1>
+      <div> 
+        <h2> ID: {adviceNumber}</h2>
+        <h1> Advice :{advice}</h1>
         <button onClick={getAdvice} {...setadviceNumber}> Get advice </button>
       </div>
     );
