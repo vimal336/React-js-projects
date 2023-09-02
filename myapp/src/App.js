@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="container">
       <h2> ID: {adviceNumber}</h2>
       <h1> Advice :{advice}</h1>
       <button onClick={getAdvice} {...setadviceNumber}>
