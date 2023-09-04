@@ -14,7 +14,9 @@
 
 <script>
   function App(){
-    return React.createElement("header", null, 'Hello React!');
+
+    const time = new Date().toLocaleDateString();
+    return React.createElement("header", null, `Hello React! It's ${time}` );
       
   }
 
