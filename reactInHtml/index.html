@@ -14,9 +14,12 @@
 
 <script>
   function App(){
-    return React.createElement("header");
+    return React.createElement("header", null, 'Hello React!');
       
   }
+
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+  root.render(React.createElement(App));
 </script>
 </body>
 </html>
