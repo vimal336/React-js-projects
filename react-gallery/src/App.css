@@ -24,6 +24,10 @@
   color: white;
 }
 
+.p-2{
+  background-color: crimson;
+}
+
 .App-link {
   color: #61dafb;
 }

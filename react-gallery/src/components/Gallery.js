@@ -20,7 +20,7 @@ export default function Gallery() {
   return (
     <>
       <div>
-        {Array.from(Array(6).keys()).map((index) => {
+        {Array.from(Array(15).keys()).map((index) => {
           return (
             <span
               className="p-3 d-inline-block img-tag"
