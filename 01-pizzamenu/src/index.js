@@ -53,13 +53,16 @@ function App() {
     <div>
       <h1> hello</h1>
       <Pizza/>
+      <Pizza/>
+      <Pizza/>
     </div>
   );
 }
 
 function Pizza(){
   return <div>
-    <h2>Pizza Spinaci</h2> <p>Tomato, mozarella, spinach, and ricotta cheese</p>
+    <img src="pizzas/spinaci.jpg" alt="Pizza spinaci" />
+    <h2>Pizza Spinaci</h2><p>Tomato, mozarella, spinach, and ricotta cheese</p>
   </div> 
 }
 
