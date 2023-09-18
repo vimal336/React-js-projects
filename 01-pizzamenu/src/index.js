@@ -59,6 +59,19 @@ function App() {
   );
 }
 
+function Header() {
+ return <h1> Fast React Pizza Co.</h1>
+}
+
+function Menu() {
+  return
+}
+
+function Footer() {
+  return
+}
+
+
 function Pizza(){
   return <div>
     <img src="pizzas/spinaci.jpg" alt="Pizza spinaci" />
