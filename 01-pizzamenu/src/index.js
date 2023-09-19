@@ -49,7 +49,7 @@ const pizzaData = [
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Header />
       <Menu />
       <Footer />
@@ -67,13 +67,13 @@ function Header() {
 
 function Menu() {
   return (
-    <div className="container">
-      <h2> our menu </h2>
+    <main className="menu">
+      <h2> Our menu </h2>
       <Pizza />
       <Pizza />
       <Pizza />
       <Pizza />
-    </div>
+    </main>
   );
 }
 
