@@ -63,13 +63,16 @@ function Header() {
 }
 
 function Menu() {
-  return <div>
+  return (
+  
+  <div className="container">
     <h2> our menu </h2>
     <Pizza/>
     <Pizza/>
     <Pizza/>
     <Pizza/>
   </div>
+  )
 }
 
 function Footer() {
