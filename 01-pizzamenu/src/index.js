@@ -47,44 +47,48 @@ const pizzaData = [
   },
 ];
 
-
 function App() {
   return (
     <div>
-      <Header/>
-      <Menu/>
-      <Footer/>
+      <Header />
+      <Menu />
+      <Footer />
     </div>
   );
 }
 
 function Header() {
- return <h1> Fast React Pizza Co.</h1>;
+  return (
+    <header className="header">
+      <h1> Fast React Pizza Co.</h1>
+    </header>
+  );
 }
 
 function Menu() {
   return (
-  
-  <div className="container">
-    <h2> our menu </h2>
-    <Pizza/>
-    <Pizza/>
-    <Pizza/>
-    <Pizza/>
-  </div>
-  )
+    <div className="container">
+      <h2> our menu </h2>
+      <Pizza />
+      <Pizza />
+      <Pizza />
+      <Pizza />
+    </div>
+  );
 }
 
 function Footer() {
-  return <footer>{ new Date().toLocaleTimeString() }</footer>
+  return <footer>{new Date().toLocaleTimeString()}</footer>;
 }
 
-
-function Pizza(){
-  return <div>
-    <img src="pizzas/spinaci.jpg" alt="Pizza spinaci" />
-    <h2>Pizza Spinaci</h2><p>Tomato, mozarella, spinach, and ricotta cheese</p>
-  </div> 
+function Pizza() {
+  return (
+    <div>
+      <img src="pizzas/spinaci.jpg" alt="Pizza spinaci" />
+      <h3>Pizza Spinaci</h3>
+      <p>Tomato, mozarella, spinach, and ricotta cheese</p>
+    </div>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
