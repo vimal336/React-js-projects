@@ -59,7 +59,7 @@ function App() {
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header footer">
       <h1> Fast React Pizza Co.</h1>
     </header>
   );
@@ -69,7 +69,7 @@ function Menu() {
   return (
     <main className="menu">
       <h2> Our menu </h2>
-      <Pizza />
+      <Pizza name = 'Pizza spinaci' ingredients = "Tomato, mozarella, spinach, and ricotta cheese" />
       <Pizza />
       <Pizza />
       <Pizza />
@@ -78,7 +78,12 @@ function Menu() {
 }
 
 function Footer() {
-  return <footer>{new Date().toLocaleTimeString()}</footer>;
+  return (
+  <footer>
+    {new Date().toLocaleTimeString()}
+    
+    </footer>
+  )
 }
 
 function Pizza() {
