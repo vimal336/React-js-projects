@@ -71,23 +71,23 @@ function Menu() {
       <h2> Our menu </h2>
       <Pizza name = 'Pizza spinaci' ingredients = "Tomato, mozarella, spinach, and ricotta cheese" 
        photoName = "pizzas/spinaci.jpg"
-       price = "10"
+       price = {10}
       />
       <Pizza 
       name = "Pizza Prosciutto"
       ingredients = "Tomato, mozarella, ham, aragula, and burrata cheese"
-      price = "18"
+      price = {18}
       photoName = "pizzas/prosciutto.jpg"/>
       <Pizza 
        name = "Pizza Salamino"
        ingredients = "Tomato, mozarella, and pepperoni"
-       price = '15'
+       price = {15}
        photoName = "pizzas/salamino.jpg"
        />
       <Pizza 
        name ="Pizza Funghi"
        ingredients = "Tomato, mozarella, mushrooms, and onion"
-       price = '12'
+       price = {12}
        photoName = "pizzas/funghi.jpg"
       
       />
@@ -106,11 +106,11 @@ function Footer() {
 
 function Pizza(props) {
   return (
-    <div>
+    <div className="pizza">
       <img src={props.photoName} alt={props.name} />
       <h3>{props.name}</h3>
       <p>{props.ingredients}</p>
-      <span>{props.price}</span>
+      <span>{props.price + 3}</span>
     </div>
   );
 }
