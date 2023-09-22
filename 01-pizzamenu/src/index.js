@@ -114,7 +114,7 @@ console.log(isOpen);
 
 
   return <footer className="footer">
-    {new Date().toLocaleTimeString()}. We are currently open
+    {new Date().toLocaleTimeString()}. We're currently open
     </footer>;
 }
 
