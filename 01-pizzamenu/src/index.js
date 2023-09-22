@@ -103,7 +103,19 @@ function Menu() {
 }
 
 function Footer() {
-  return <footer>{new Date().toLocaleTimeString()}</footer>;
+
+const hour = new Date().getHours();
+const openHour = 12;
+const closeHour = 22;
+const isOpen = hour >= openHour && hour <= closeHour;
+console.log(isOpen);
+
+
+
+
+  return <footer className="footer">
+    {new Date().toLocaleTimeString()}. We are currently open
+    </footer>;
 }
 
 function Pizza(props) {
