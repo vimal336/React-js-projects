@@ -110,16 +110,11 @@ const closeHour = 22;
 const isOpen = hour >= openHour && hour <= closeHour;
 console.log(isOpen);
 
-
-
-
-  return (
-  <footer className="footer">
-    {isOpen &&}
-
-
-    </footer>
-  )
+return <footer className="footer">
+    {isOpen && <p> we're open until {closeHour} </p>}
+      </footer>
+}
+  
 
 function Pizza(props) {
   return (
