@@ -73,12 +73,14 @@ function Menu() {
     <main className="menu">
       <h2> Our menu </h2>
 
-      <ul className="pizzas">
+      {pizzas &&  <ul className="pizzas">
         {pizzaData.map((pizza) => (
           <Pizza pizzaObj={pizza} key={pizza.name} />
         ))}
       </ul>
+}
 
+     
       {/* <Pizza name = 'Pizza spinaci' ingredients = "Tomato, mozarella, spinach, and ricotta cheese" 
        photoName = "pizzas/spinaci.jpg"
        price = {10}
