@@ -67,7 +67,9 @@ function Header() {
 
 function Menu() {
  
-  const pizzas = pizzaData;
+  // const pizzas = pizzaData;
+
+  const pizzas = []
 
   return (
     <main className="menu">
