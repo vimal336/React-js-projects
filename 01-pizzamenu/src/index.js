@@ -111,7 +111,7 @@ const isOpen = hour >= openHour && hour <= closeHour;
 console.log(isOpen);
 
 return <footer className="footer">
-    {isOpen && <p> we're open until {closeHour} </p>}
+    {isOpen && <p> we're open until {closeHour}:00. come visit us or order online. </p>}
       </footer>
 }
   
