@@ -113,10 +113,13 @@ console.log(isOpen);
 
 
 
-  return <footer className="footer">
-    {new Date().toLocaleTimeString()}. We're currently open
-    </footer>;
-}
+  return (
+  <footer className="footer">
+    {isOpen &&}
+
+
+    </footer>
+  )
 
 function Pizza(props) {
   return (
