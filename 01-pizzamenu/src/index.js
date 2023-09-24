@@ -69,7 +69,7 @@ function Menu() {
  
   // const pizzas = pizzaData;
 
-  const pizzas = []
+  const pizzas = {}
 
   return (
     <main className="menu">
