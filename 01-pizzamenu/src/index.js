@@ -70,12 +70,13 @@ function Menu() {
   // const pizzas = pizzaData;
 
   const pizzas = [];
+  const numpizzas = pizzas.length;
 
   return (
     <main className="menu">
       <h2> Our menu </h2>
 
-      {pizzas && (
+      {numpizzas > 0 && (
       <ul className="pizzas">
         {pizzas.map((pizza) => (
           <Pizza pizzaObj={pizza} key={pizza.name} />
