@@ -128,10 +128,12 @@ function Footer() {
 }
 
 function Order(props) {
+  return(
   <div className="order">
     <p>we're open until {props.closeHour}:00. come visit us or order online.</p>
     <button className="btn"> Order</button>
-  </div>;
+  </div>
+  )
 }
 
 function Pizza(props) {
