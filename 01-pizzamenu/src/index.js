@@ -67,9 +67,7 @@ function Header() {
 
 function Menu() {
  
-  // const pizzas = pizzaData;
-
-  const pizzas = [];
+  const pizzas = pizzaData;
   const numpizzas = pizzas.length;
 
   return (
@@ -121,12 +119,7 @@ function Footer() {
   return (
     <footer className="footer">
       {isOpen ? (
-        <div className="order">
-          <p>
-            we're open until {closeHour}:00. come visit us or order online.
-          </p>
-          <button className="btn"> Order</button>
-        </div>
+        
       ) : (
         <p>
            We're happy to welcome you between {openHour}:00 and {closeHour}:00.
@@ -134,6 +127,17 @@ function Footer() {
       )}
     </footer>
   );
+}
+
+function Order() {
+
+  <div className="order">
+          <p>
+            we're open until {closeHour}:00. come visit us or order online.
+          </p>
+          <button className="btn"> Order</button>
+        </div>
+
 }
 
 function Pizza(props) {
