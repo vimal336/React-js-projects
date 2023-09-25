@@ -118,7 +118,7 @@ function Footer() {
 
   return (
     <footer className="footer">
-      {isOpen ? (
+      {isOpen ? <Order openHour ={openHour}/> (
         
       ) : (
         <p>
