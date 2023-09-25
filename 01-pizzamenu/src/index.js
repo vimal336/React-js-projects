@@ -129,11 +129,11 @@ function Footer() {
   );
 }
 
-function Order() {
+function Order(props) {
 
   <div className="order">
           <p>
-            we're open until {closeHour}:00. come visit us or order online.
+            we're open until {props.openHour}:00. come visit us or order online.
           </p>
           <button className="btn"> Order</button>
         </div>
