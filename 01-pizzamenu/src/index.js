@@ -140,7 +140,7 @@ function Pizza({pizzaObj}) {
   return (
     <li className="pizza">
       <img src={pizzaObj.photoName} alt={pizzaObj.name} />
-      <h3>{props.pizzaObj.name}</h3>
+      <h3>{pizzaObj.name}</h3>
       <p>{props.pizzaObj.ingredients}</p>
       <span>{props.pizzaObj.price + 3}</span>
     </li>
