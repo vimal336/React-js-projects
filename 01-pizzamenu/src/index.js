@@ -127,10 +127,10 @@ function Footer() {
   );
 }
 
-function Order( {closeHour} ) {
+function Order( {openHour, closeHour} ) {
   return(
   <div className="order">
-    <p>we're open from {openHour} {closeHour}:00. come visit us or order online.</p>
+    <p>we're open from {openHour}:00 to {closeHour}:00. come visit us or order online.</p>
     <button className="btn"> Order</button>
   </div>
   )
