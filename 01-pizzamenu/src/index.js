@@ -74,7 +74,7 @@ function Menu() {
       <h2> Our menu </h2>
 
       <p>
-        Authentic Italian 
+        Authentic Italian cuisine. 6 creative 
       </p>
 
       {numpizzas > 0 && (
