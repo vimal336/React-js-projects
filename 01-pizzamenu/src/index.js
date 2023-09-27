@@ -77,7 +77,7 @@ function Menu() {
         <>
           <p>
             Authentic Italian cuisine. 6 creative dishes to choose from. All
-            from our stone oven, all organic all delicious.
+            from our stone oven, all organic, all delicious.
           </p>
           <ul className="pizzas">
             {pizzas.map((pizza) => (
@@ -152,6 +152,7 @@ function Pizza({ pizzaObj }) {
       <h3>{pizzaObj.name}</h3>
       <p>{pizzaObj.ingredients}</p>
       <span>{pizzaObj.price + 3}</span>
+      <span>{pizzaObj.soldOut ? 'SOLD OUT' : pizzaObj.price} </span>
     </li>
   );
 }
