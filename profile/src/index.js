@@ -67,9 +67,9 @@ function Avatar() {
 function Intro() {
   return (
     <div className="data">
-      <h1>Jonas Schmedtman</h1>
+      <h1>Vimal S</h1>
       <p> 
-      Full-stack web developer and teacher at Udemy. When not coding or preparing a course, I like to play board games, to cook (and eat), or to just enjoy the Portuguese sun at the beach.
+      Front End web developer and M.sc computer science graduate. When not coding or preparing a course, I like to play board games, to cook (and eat), or to just travel to my favorite places.
       </p>
     </div>
   );
