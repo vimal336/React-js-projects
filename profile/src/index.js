@@ -75,13 +75,13 @@ function Intro() {
   );
 }
 
-function SkillList(props) {
+function SkillList({App}) {
   return (
   
   <div className="skill">
    
-   <div style={{ backgroundColor: props.backgroundColor }} className="skill-list">
-   <div className="skill" style={{ backgroundColor: props.color }}>
+   <div style={{ backgroundColor: App.backgroundColor }} className="skill-list">
+   <div className="skill" style={{ backgroundColor: App.color }}>
       <span>{props.skillsList}</span>
       <span>{props.emoji}</span>
     </div>
