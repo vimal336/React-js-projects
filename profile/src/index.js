@@ -59,7 +59,7 @@ function App() {
 function Avatar() {
   return (
     <div className="avatar">
-      <img className="avatar" src={"images/jonas.jpeg"} alt={"profile"} />
+      <img className="avatar" src={"images/prof.jfif"} alt={"profile"} />
     </div>
   );
 }
