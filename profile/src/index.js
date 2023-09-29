@@ -6,64 +6,52 @@ const skills = [
   {
     skill: "HTML+CSS",
     level: "advanced",
-    color: "#2662EA"
+    color: "#2662EA",
   },
   {
     skill: "JavaScript",
     level: "advanced",
-    color: "#EFD81D"
+    color: "#EFD81D",
   },
   {
     skill: "Web Design",
     level: "advanced",
-    color: "#C3DCAF"
+    color: "#C3DCAF",
   },
   {
     skill: "Git and GitHub",
     level: "intermediate",
-    color: "#E84F33"
+    color: "#E84F33",
   },
   {
     skill: "React",
     level: "advanced",
-    color: "#60DAFB"
+    color: "#60DAFB",
   },
   {
     skill: "Svelte",
     level: "beginner",
-    color: "#FF3B00"
-  }
+    color: "#FF3B00",
+  },
 ];
 
 function App() {
-
   return (
     <div className="card">
       <Avatar />
       <div className="data">
         <Intro />
-        {/* Should contain one Skill component
-      for each web dev skill that you have,
-      customized with props */}
-      <div className="skill-list"> 
 
-       {skills.map((skill) => (
-        
-        <SkillList skillsList = {skill} key ={skill.name}/>
+        <>
+        <ul className="skill-list">
+          {skills.map((skil) => (
+            <SkillList skillsList={skill} key={skill.skill} />
+            ))}
 
-       ))}
-
-
-
-
-
-
-{/* 
-        <SkillList skillsList = 'React' emoji = '✌️' backgroundColor="yellow"/>
-        <SkillList skillsList = 'HTML+CSS' emoji = '👍' backgroundColor="green"/>
-        <SkillList skillsList = 'Javascript' emoji = '💪' backgroundColor="blue" />
+          {/* 
         <SkillList skillsList = 'Svelete' emoji = '🤞' backgroundColor="red"/> */}
-      </div>
+        </ul>
+        </>
       </div>
     </div>
   );
@@ -81,8 +69,10 @@ function Intro() {
   return (
     <div className="data">
       <h1>Vimal S</h1>
-      <p> 
-      Front End web developer and M.sc computer science graduate. When not coding or preparing a course, I like to play board games, to cook (and eat), or to just travel to my favorite places.
+      <p>
+        Front End web developer and M.sc computer science graduate. When not
+        coding or preparing a course, I like to play board games, to cook (and
+        eat), or to just travel to my favorite places.
       </p>
     </div>
   );
@@ -90,18 +80,18 @@ function Intro() {
 
 function SkillList(props) {
   return (
-  
-  <div className="skill">
-   
-   <div style={{ backgroundColor: props.backgroundColor }} className="skill-list">
-   <div className="skill" style={{ backgroundColor: props.color }}>
-      <span>{props.skillsList}</span>
-      <span>{props.emoji}</span>
+    <div className="skill">
+      <div
+        style={{ backgroundColor: props.backgroundColor }}
+        className="skill-list"
+      >
+        <div className="skill" style={{ backgroundColor: props.color }}>
+          <span>{props.skillsList}</span>
+          <span>{props.emoji}</span>
+        </div>
+      </div>
     </div>
-   </div>
-
-  </div>
-  )
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
