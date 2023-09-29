@@ -6,7 +6,7 @@ const skills = [
   {
     skill: "HTML+CSS",
     level: "advanced",
-    color: "black",
+    color: "#2662EA",
   },
   {
     skill: "JavaScript",
@@ -47,9 +47,6 @@ function App() {
           {skills.map((skil) => (
             <SkillList skillsList={skil} key={skil.skill} />
             ))}
-
-          {/* 
-        <SkillList skillsList = 'Svelete' emoji = '🤞' backgroundColor="red"/> */}
         </ul>
         </>
       </div>
@@ -87,7 +84,7 @@ function SkillList({skillsList}) {
       >
         <li className="skill" style={{ backgroundColor: skillsList.color }}>
           <span>{skillsList.skill}</span>
-          <span>{skillsList.emoji}</span>
+          <span>{skillsList.level}</span>
         </li>
       </div>
     </div>
