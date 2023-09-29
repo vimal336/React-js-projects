@@ -45,7 +45,7 @@ function App() {
         <>
         <ul className="skill-list">
           {skills.map((skil) => (
-            <SkillList skillsList={skil}/>
+            <SkillList skillsList={skil} key={skil.skill} />
             ))}
 
           {/* 
@@ -78,16 +78,16 @@ function Intro() {
   );
 }
 
-function SkillList(props) {
+function SkillList({skillsList}) {
   return (
     <div className="skill">
       <div
-        style={{ backgroundColor: props.backgroundColor }}
+        style={{ backgroundColor: skillsList.backgroundColor }}
         className="skill-list"
       >
-        <li className="skill" style={{ backgroundColor: props.color }}>
-          <span>{props.skillsList}</span>
-          <span>{props.emoji}</span>
+        <li className="skill" style={{ backgroundColor: skillsList.color }}>
+          <span>{skillsList.skillsList}</span>
+          <span>{skillsList.emoji}</span>
         </li>
       </div>
     </div>
