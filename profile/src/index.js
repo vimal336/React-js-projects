@@ -6,7 +6,7 @@ const skills = [
   {
     skill: "HTML+CSS",
     level: "advanced",
-    color: "#2662EA",
+    color: "black",
   },
   {
     skill: "JavaScript",
@@ -86,7 +86,7 @@ function SkillList({skillsList}) {
         className="skill-list"
       >
         <li className="skill" style={{ backgroundColor: skillsList.color }}>
-          <span>{skillsList.skillsList}</span>
+          <span>{skillsList.skill}</span>
           <span>{skillsList.emoji}</span>
         </li>
       </div>
