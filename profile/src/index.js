@@ -36,6 +36,7 @@ const skills = [
 ];
 
 function App() {
+
   return (
     <div className="card">
       <Avatar />
@@ -46,10 +47,22 @@ function App() {
       customized with props */}
       <div className="skill-list"> 
 
+       {skills.map((skill) => (
+        
+        <SkillList skillsList = {skill} key ={skill.name}/>
+
+       ))}
+
+
+
+
+
+
+{/* 
         <SkillList skillsList = 'React' emoji = '✌️' backgroundColor="yellow"/>
         <SkillList skillsList = 'HTML+CSS' emoji = '👍' backgroundColor="green"/>
         <SkillList skillsList = 'Javascript' emoji = '💪' backgroundColor="blue" />
-        <SkillList skillsList = 'Svelete' emoji = '🤞' backgroundColor="red"/>
+        <SkillList skillsList = 'Svelete' emoji = '🤞' backgroundColor="red"/> */}
       </div>
       </div>
     </div>
@@ -75,13 +88,13 @@ function Intro() {
   );
 }
 
-function SkillList({App}) {
+function SkillList(props) {
   return (
   
   <div className="skill">
    
-   <div style={{ backgroundColor: App.backgroundColor }} className="skill-list">
-   <div className="skill" style={{ backgroundColor: App.color }}>
+   <div style={{ backgroundColor: props.backgroundColor }} className="skill-list">
+   <div className="skill" style={{ backgroundColor: props.color }}>
       <span>{props.skillsList}</span>
       <span>{props.emoji}</span>
     </div>
