@@ -84,7 +84,13 @@ function SkillList({skillsList}) {
       >
         <li className="skill" style={{ backgroundColor: skillsList.color }}>
           <span>{skillsList.skill}</span>
-          <span>{skillsList.level}</span>
+          <span>
+          {skillsList.level.advanced ? (
+        <p>{'hello'}</p>
+      ) : (
+        <p>{'hi'}</p>
+      )}
+          </span>
         </li>
       </div>
     </div>
