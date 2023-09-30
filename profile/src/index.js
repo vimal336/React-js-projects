@@ -86,7 +86,7 @@ function SkillList({skillsList}) {
           <span>{skillsList.skill}</span>
           <span>
           {skillsList.level.advanced ? (
-        <p>{'hello'}</p>
+        <p>{'hello emoji'}</p>
       ) : (
         <p>{'hi'}</p>
       )}
