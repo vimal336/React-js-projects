@@ -85,11 +85,7 @@ function SkillList({skillsList}) {
         <li className="skill" style={{ backgroundColor: skillsList.color }}>
           <span>{skillsList.skill}</span>
           <span>
-          {skillsList.level = 'beginner'? (
-        <p>{'hi'}</p>
-      ) : (
-        <p>{'bye'}</p>
-      )}
+          {skillsList.level === 'beginner' && '🙂'}
           </span>
         </li>
       </div>
