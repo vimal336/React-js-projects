@@ -86,8 +86,8 @@ function SkillList({skillsList}) {
           <span>{skillsList.skill}</span>
           <span>
           {skillsList.level === 'beginner' && '🙂'}
-          {skillsList.level === 'advanced' && '🙂'}
-          {skillsList.level === 'intermediate' && '🙂'}
+          {skillsList.level === 'advanced' && '😎 '}
+          {skillsList.level === 'intermediate' && '😁'}
           </span>
         </li>
       </div>
