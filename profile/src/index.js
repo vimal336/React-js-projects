@@ -14,7 +14,7 @@ const skills = [
     color: "#EFD81D",
   },
   {
-    skill: "Web Design",
+    skill: " Responsive Web Design",
     level: "advanced",
     color: "#C3DCAF",
   },
@@ -29,7 +29,7 @@ const skills = [
     color: "#60DAFB",
   },
   {
-    skill: "Svelte",
+    skill: "Sass",
     level: "beginner",
     color: "#FF3B00",
   },
