@@ -1,8 +1,8 @@
 const messages = [
   "Learn React *",
   "Apply for jobs --",
-  "Invest your new income"
-]
+  "Invest your new income 😇"
+];
 
 
 
