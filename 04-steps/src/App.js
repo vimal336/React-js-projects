@@ -5,10 +5,8 @@ const messages = [
 ];
 
 
-
-
-
 export default function App() {
+  const step = 1;
   return (
     <div className="steps">
       <div className="numbers">
