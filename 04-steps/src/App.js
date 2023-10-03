@@ -1,9 +1,8 @@
 const messages = [
-  "Learn React *",
-  "Apply for jobs --",
-  "Invest your new income 😇"
+  "Learn React ⚛️",
+  "Apply for jobs 💼",
+  "Invest your new income 🤑",
 ];
-
 
 export default function App() {
   const step = 2;
