@@ -6,6 +6,11 @@ const messages = [
 
 export default function App() {
   const step = 1;
+
+  function handlePrevious(){
+    alert('previous')
+  }
+
   return (
     <div className="steps">
       <div className="numbers">
