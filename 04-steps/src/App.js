@@ -8,7 +8,7 @@ const messages = [
 
 export default function App() {
   const [step, setStep] = useState(1);
-  const [test] = useState({name:'vimal'});
+  const [test] = useState({ name: 'vimal' });
 
   function handlePrevious() {
     if(step > 1)
@@ -32,6 +32,7 @@ export default function App() {
 
       <p className="message">
         Step {step}: {messages[step - 1]}
+        {test.name}
       </p>
 
       <div className="buttons">
