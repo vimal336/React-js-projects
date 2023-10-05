@@ -43,7 +43,7 @@ export default function App() {
           style={{ backgroundColor: "#7950f2", color: "#fff" }}
           onClick={handleNext}
         >
-          Next button
+          Next
         </button>
       </div>
     </div>
