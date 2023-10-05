@@ -7,7 +7,8 @@ const messages = [
 ];
 
 export default function App() {
-  let [step, setStep] = useState(1);
+  const [step, setStep] = useState(1);
+  const [test, setTest] = useState({name:'vimal'})
 
   function handlePrevious() {
     if(step > 1)
