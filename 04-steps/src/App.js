@@ -24,7 +24,7 @@ export default function App() {
   return (
 
     <div>
-      
+      <button onClick={()=> setIsOpen(!isOpen)}></button>
    { isOpen && (
 
       <div className="steps">
