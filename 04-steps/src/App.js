@@ -40,7 +40,7 @@ export default function App() {
               style={{ backgroundColor: "#7950f2", color: "#fff" }}
               onClick={handlePrevious}
             >
-              Previous button
+              Previous
             </button>
             <button
               style={{ backgroundColor: "#7950f2", color: "#fff" }}
