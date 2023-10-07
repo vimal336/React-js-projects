@@ -11,7 +11,8 @@ export default function App() {
   const [isOpen, setIsOpen] = useState(true);
 
   function handlePrevious() {
-    if (step > 1) setStep(step - 1);
+    if (step > 1) 
+    setStep((s) => s - 1);
   }
 
   function handleNext() {
