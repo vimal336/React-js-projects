@@ -15,7 +15,9 @@ export default function App() {
   }
 
   function handleNext() {
-    if (step < 3) setStep(step + 1);
+    if (step < 3) 
+    setStep(step + 1);
+    setStep(step + 1);
   }
 
   return (
