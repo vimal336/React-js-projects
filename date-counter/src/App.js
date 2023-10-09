@@ -27,7 +27,7 @@ function App() {
 }
 
 function setStep(step) {
-  setStep = (step + 2)
+  setStep = (step + 62)
 }
 
 
