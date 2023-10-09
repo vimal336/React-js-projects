@@ -4,14 +4,15 @@ import "./App.css";
 function App() {
 
 
-  useState = [step setStep] = (0);
+  const [step, setStep] = useState(0);
+
 
   return (
    
       <div className="App">
         <h1>Date counter app</h1>
         <div>
-          <button>-</button> {step} : 1 <button>+</button>
+          <button onClick={setStep(step + 1)}>-</button> {step} : 1 <button>+</button>
         </div>
 
         <div>
