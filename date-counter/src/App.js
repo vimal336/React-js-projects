@@ -18,7 +18,7 @@ function stepInc() {
       <div className="App">
         <h1>Date counter app</h1>
         <div>
-          <button onClick={stepInc}>-</button> step : 1 <button>+</button>
+          <button onClick={stepInc}>-</button> step : {step} <button>+</button>
         </div>
 
         <div>
