@@ -7,9 +7,14 @@ function App() {
   const [step, setStep] = useState(0);
 
   
+function stepDec() {
+  setStep(step - 1)
+}
+
 function stepInc() {
   setStep(step + 1)
 }
+
 
 
 
@@ -18,7 +23,7 @@ function stepInc() {
       <div className="App">
         <h1>Date counter app</h1>
         <div>
-          <button onClick={stepInc}>-</button> step : {step} <button>+</button>
+          <button onClick={stepDec}>-</button> step : {step} <button onClick={stepInc}>+</button>
         </div>
 
         <div>
