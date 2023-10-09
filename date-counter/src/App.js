@@ -1,15 +1,16 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-     <h1>date counter app</h1>
-     <div> 
+      <h1>date counter app</h1>
+      <div>
+        <button>-</button> step : <button>+</button>
+      </div>
 
-     <button>+</button> step  <button>+</button> 
-
-     </div>
-      
+      <div>
+        <button>-</button> count : <button>+</button>
+      </div>
     </div>
   );
 }
