@@ -5,7 +5,7 @@ function App() {
     <>
     <div className="App">
       
-      <h1>date counter app</h1>
+      <h1>Date counter app</h1>
       <div>
         <button>-</button> step : 1 <button>+</button>
       </div>
