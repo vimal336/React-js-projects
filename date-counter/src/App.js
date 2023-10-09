@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <h1>Date counter app</h1>
         <div>
-          <button onClick={setStep(step + 1)}>-</button> {step} : 1 <button>+</button>
+          <button onClick={setStep}>-</button> step : 1 <button>+</button>
         </div>
 
         <div>
@@ -25,5 +25,10 @@ function App() {
     
   );
 }
+
+function setStep(step) {
+  setStep = (step + 2)
+}
+
 
 export default App;
