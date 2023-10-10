@@ -13,8 +13,12 @@ function App() {
 
 function Dates() {
   return (
-    <div >
+    <div>
+      {
+      
       const date new Date();
+      
+      }
       
     </div>
   );
