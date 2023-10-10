@@ -33,11 +33,11 @@ function Counter() {
   }
 
   function countDec() {
-    if (count > 0) setCount((c) => c - 1);
+    if (count > 0) setCount((c) => c - step);
   }
 
   function countInc() {
-    setCount((c) => c + 1);
+    setCount((c) => c + step);
   }
   return (
     <div>
@@ -55,7 +55,6 @@ function Counter() {
       </div>
       <div>
         <p>
-          {" "}
           {count} days from today is {}
         </p>
       </div>
