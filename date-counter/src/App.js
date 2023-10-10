@@ -1,11 +1,21 @@
 import { useState } from "react";
 import "./App.css";
-import dateFormat from 'dateformat';
 
 function App() {
   return (
     <div className="App">
      <Counter/>
+     <Dates/>
+    </div>
+  );
+
+}
+
+function Dates() {
+  return (
+    <div >
+      const date new Date();
+      
     </div>
   );
 
