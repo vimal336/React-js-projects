@@ -3,18 +3,8 @@ import "./App.css";
 import dateFormat from 'dateformat';
 
 function App() {
- 
-
-  function dates() {
-    dateFormat("2019-04-30T08:59:00.000Z", "mmmm dS, yyyy") 
-   
-  }
-
-  dates();
-
   return (
     <div className="App">
-      hello
      <Counter/>
     </div>
   );
