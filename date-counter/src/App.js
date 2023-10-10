@@ -14,14 +14,15 @@ function App() {
 
   return (
     <div className="App">
-     
+      hello
+     <Counter/>
     </div>
   );
 
 }
 
 
-export const counter = () => {
+function Counter() {
   const [step, setStep] = useState(0);
   const [count, setCount] = useState(0);
 
