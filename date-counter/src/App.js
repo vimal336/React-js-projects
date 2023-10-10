@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import moment from "moment";
 
 function App() {
   const [step, setStep] = useState(0);
@@ -22,16 +21,13 @@ function App() {
     setCount((c) => c + 1);
   }
 
-  function dates(){
+  function dates() {
+    const currentDate = new Date();
 
-    const currentDate = new Date()
-
-console.log(currentDate)
-
-
-
+    console.log(currentDate);
   }
 
+  dates();
 
   return (
     <div className="App">
@@ -48,7 +44,7 @@ console.log(currentDate)
         <button onClick={countInc}>+</button>
       </div>
       <div>
-        <p> {count} days from today is </p>
+        <p> {count} days from today is { 1 dates}</p>
       </div>
     </div>
   );
