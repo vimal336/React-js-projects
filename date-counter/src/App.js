@@ -1,32 +1,54 @@
 import { useState } from "react";
 import "./App.css";
+import moment from "moment";
 
 function App() {
   const [step, setStep] = useState(0);
   const [count, setCount] = useState(0);
 
   function stepDec() {
-    setStep(step - 1);
+    if (step > 0) setStep((s) => -1);
   }
 
   function stepInc() {
-    setStep(step + 1);
+    setStep((s) => s + 1);
   }
+
+  function countDec() {
+    if (count > 0) setCount((c) => c - 1);
+  }
+
+  function countInc() {
+    setCount((c) => c + 1);
+  }
+
+  function dates(){
+
+    const currentDate = new Date()
+
+console.log(currentDate)
+
+
+
+  }
+
 
   return (
     <div className="App">
       <h1>Date counter app</h1>
       <div>
-        <button onClick={stepDec}>-</button> 
-         step : {step}
+        <button onClick={stepDec}>-</button>
+        step : {step}
         <button onClick={stepInc}>+</button>
       </div>
 
       <div>
-        <button>-</button> count : 1 <button>+</button>
+        <button onClick={countDec}>-</button>
+        count : {count}
+        <button onClick={countInc}>+</button>
       </div>
       <div>
-        <p>7 days from today is Mon Aug 30 2027</p>
+        <p> {count} days from today is </p>
       </div>
     </div>
   );
