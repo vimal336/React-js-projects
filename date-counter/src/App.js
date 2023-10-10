@@ -4,27 +4,21 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-     <Counter/>
-     <Dates/>
+      <Counter />
+      <Dates />
     </div>
   );
-
 }
 
 function Dates() {
+
+
   return (
-    <div>
-      {
-      
-      const date new Date();
-      
-      }
-      
-    </div>
-  );
-
+  <div>
+    <h1> date</h1>
+  </div>
+  )
 }
-
 
 function Counter() {
   const [step, setStep] = useState(0);
@@ -47,7 +41,7 @@ function Counter() {
   }
   return (
     <div>
-       <h1>Date counter app</h1>
+      <h1>Date counter app</h1>
       <div>
         <button onClick={stepDec}>-</button>
         step : {step}
@@ -60,11 +54,13 @@ function Counter() {
         <button onClick={countInc}>+</button>
       </div>
       <div>
-        <p> {count} days from today is {}</p>
+        <p>
+          {" "}
+          {count} days from today is {}
+        </p>
       </div>
     </div>
-  )
+  );
 }
-
 
 export default App;
