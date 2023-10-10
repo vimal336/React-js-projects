@@ -46,7 +46,7 @@ function Counter() {
         <button onClick={countInc}>+</button>
       </div>
       <div>
-        <p> {count} days from today is {dateFormat}</p>
+        <p> {count} days from today is {}</p>
       </div>
     </div>
   )
