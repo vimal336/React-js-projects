@@ -51,7 +51,7 @@ function Counter() {
       </div>
       <div>
         <p>
-          {count} days from today is {dateString}
+          {count} days from today is {dateString + count}
         </p>
       </div>
     </>
