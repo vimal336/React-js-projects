@@ -31,8 +31,10 @@ function Counter() {
   }
 
   
-  const date = new Date()
-  const dateString = date.toDateString();
+  const currentDate = new Date()
+  currentDate.setFullYear(currentDate.getFullYear() + 3);
+
+  const dateString = currentDate.toDateString();
   console.log(dateString);
 
   return (
@@ -51,7 +53,7 @@ function Counter() {
       </div>
       <div>
         <p>
-          {count} days from today is {dateString + count}
+          {count} days from today is {dateString - 1}
         </p>
       </div>
     </>
