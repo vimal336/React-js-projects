@@ -2,10 +2,15 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
+
+  const date = new Date()
+  const dateString = date.toDateString();
+  console.log(dateString);
+
   return (
     <div className="App">
       <Counter />
- 
+      <h1>{dateString}</h1>
     </div>
   );
 }
