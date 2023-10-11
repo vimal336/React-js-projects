@@ -25,7 +25,7 @@ function Counter() {
   const [count, setCount] = useState(0);
 
   function stepDec() {
-    if (step > 0) setStep((s) => -1);
+    if (step > 1) setStep((s) => - 1);
   }
 
   function stepInc() {
@@ -40,7 +40,7 @@ function Counter() {
     setCount((c) => c + step);
   }
   return (
-    <div>
+    <>
       <h1>Date counter app</h1>
       <div>
         <button onClick={stepDec}>-</button>
@@ -58,7 +58,7 @@ function Counter() {
           {count} days from today is {}
         </p>
       </div>
-    </div>
+    </>
   );
 }
 
