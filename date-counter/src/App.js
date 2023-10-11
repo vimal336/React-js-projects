@@ -50,7 +50,7 @@ function Counter() {
 
       <div>
         <button onClick={countDec}>-</button>
-        count : {count}
+        <span>  count : {count} </span> 
         <button onClick={countInc}>+</button>
       </div>
       <div>
