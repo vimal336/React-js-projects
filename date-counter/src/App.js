@@ -44,7 +44,7 @@ function Counter() {
       <h1>Date counter app</h1>
       <div>
         <button onClick={stepDec}>-</button>
-        step : {step}
+        <span>  step : {step}  </span> 
         <button onClick={stepInc}>+</button>
       </div>
 
