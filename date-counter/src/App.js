@@ -3,14 +3,9 @@ import "./App.css";
 
 function App() {
 
-  const date = new Date()
-  const dateString = date.toDateString();
-  console.log(dateString);
-
   return (
     <div className="App">
       <Counter />
-      <h1>{dateString}</h1>
     </div>
   );
 }
@@ -31,9 +26,15 @@ function Counter() {
     if (count > 0) setCount((c) => c - step);
   }
 
-  function countInc() {
+  function countInc(props) {
     setCount((c) => c + step);
   }
+
+  
+  const date = new Date()
+  const dateString = date.toDateString();
+  console.log(dateString);
+
   return (
     <>
       <h1>Date counter app</h1>
@@ -50,7 +51,7 @@ function Counter() {
       </div>
       <div>
         <p>
-          {count} days from today is {}
+          {count} days from today is {dateString}
         </p>
       </div>
     </>
