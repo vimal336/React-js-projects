@@ -5,19 +5,9 @@ function App() {
   return (
     <div className="App">
       <Counter />
-      <Dates />
+ 
     </div>
   );
-}
-
-function Dates() {
-
-
-  return (
-  <div>
-    <h1> date</h1>
-  </div>
-  )
 }
 
 function Counter() {
