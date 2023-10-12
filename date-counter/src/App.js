@@ -19,7 +19,7 @@ function Counter() {
   date.setDate(date.getDate() + count);
 
   function stepDec() {
-    if (step > 1) setStep((s) => - 1);
+    setStep((s) => - 1);
   }
 
   function stepInc() {
