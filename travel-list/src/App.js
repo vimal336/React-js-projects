@@ -8,3 +8,5 @@ function Form() {}
 
 function PackingList() {}
 
+function Stats() {}
+
