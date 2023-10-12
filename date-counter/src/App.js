@@ -23,7 +23,7 @@ function Counter() {
   }
 
   function countDec() {
-    if (count > 0) setCount((c) => c - step);
+    setCount((c) => c - step);
   }
 
   function countInc(props) {
