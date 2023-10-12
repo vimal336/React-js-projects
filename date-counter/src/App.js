@@ -14,6 +14,10 @@ function Counter() {
   const [step, setStep] = useState(1);
   const [count, setCount] = useState(0);
 
+  
+  const date = new Date("june 21 2027");
+  date.setDate(date.getDate() + count);
+
   function stepDec() {
     if (step > 1) setStep((s) => - 1);
   }
@@ -29,13 +33,6 @@ function Counter() {
   function countInc(props) {
     setCount((c) => c + step);
   }
-
-  
-  const currentDate = new Date()
-  currentDate.setFullYear(currentDate.getFullYear() + 3);
-
-  const dateString = currentDate.toDateString();
-  console.log(dateString);
 
   return (
     <>
