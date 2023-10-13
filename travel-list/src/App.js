@@ -1,4 +1,12 @@
-export default function App() {}
+export default function App() {
+  return(
+   <div className="app">
+      <Logo/>
+      <Form/>
+      <PackingList/>
+   </div>
+  )
+}
 
 function Logo() {
   return <h1> 🌴 Far Away 👜 </h1>;
