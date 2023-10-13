@@ -27,7 +27,9 @@ function Form() {
 }
 
 function PackingList() {
-  return <div className="list"> List </div>;
+  return <ul className="list">
+
+     </ul>;
 }
 
 function Stats() {
