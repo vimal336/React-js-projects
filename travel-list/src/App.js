@@ -28,11 +28,14 @@ function Form() {
 
 function PackingList() {
   return (
-    <ul className="list">
+    <div className="list">
+      <ul>
       {initialItems.map((item) => (
         <Item item={item} />
       ))}
     </ul>
+    </div>
+    
   );
 }
 
@@ -41,7 +44,7 @@ function Item({ item }) {
     <li>
       <span>
         {item.quantity} {item.description}
-        <button>X</button>
+        <button>❌</button>
       </span>
     </li>
   );
