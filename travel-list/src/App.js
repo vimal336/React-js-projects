@@ -30,16 +30,21 @@ function PackingList() {
   return (
     <ul className="list">
       {initialItems.map((item) => (
-        <Item item ={item}/>
+        <Item item={item} />
       ))}
     </ul>
   );
 }
 
-function Item({ item }){
-  return <li> <span>
-   {item.list} {item.description}
-    </span></li>
+function Item({ item }) {
+  return (
+    <li>
+      <span>
+        {item.quantity} {item.description}
+        <button>X</button>
+      </span>
+    </li>
+  );
 }
 
 function Stats() {
