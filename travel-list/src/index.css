@@ -74,9 +74,6 @@ input {
   background-color: #5a3e2b;
   color: #ffebb3;
   padding: 4rem 0;
-  overflow: hidden;
-  overflow-y: hidden;
-
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -132,3 +129,4 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+
