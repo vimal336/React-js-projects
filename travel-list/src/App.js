@@ -21,8 +21,8 @@ function Logo() {
 
 function Form() {
 
-  function handleSubmit() {
-      
+  function handleSubmit(e) {
+      e.preventDefault();
   }
 
 
@@ -36,6 +36,7 @@ function Form() {
         }
       </select>
       <input type='text' placeholder="Item..."/>
+      <button>Add</button>
     </form>
   );
 }
