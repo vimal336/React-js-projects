@@ -24,7 +24,7 @@ function Form() {
     <form className="add-form">
       <h3> what do you need for your 😍 trip?</h3>
       <select>
-        <option value={1}> 1 </option>
+        {Array.from({length:20}, (_, i) => i+1)}
       </select>
     </form>
   );
