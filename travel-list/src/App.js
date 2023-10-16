@@ -25,6 +25,8 @@ function Form() {
       e.preventDefault();
   }
 
+  const [description, setDescription] = useState("");
+
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
