@@ -27,12 +27,14 @@ function Form() {
       e.preventDefault();
   }
 
+  const [description, setDescription] = useState("Test");
+
+  
   function setDescription(e) {
-    e.preventDefault();
+    e.target.value
 }
 
 
-  const [description, setDescription] = useState("Test");
 
 
   return (
@@ -44,7 +46,7 @@ function Form() {
         </option>)
         }
       </select>
-      <input type='text' placeholder="Item..." value={description} onChange={(e)=> setDescription(e.target.value)}/>
+      <input type='text' placeholder="Item..." value={description} onChange={setDescription }/>
       <button>Add</button>
     </form>
   );
