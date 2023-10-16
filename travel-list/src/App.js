@@ -22,23 +22,33 @@ function Logo() {
 }
 
 function Form() {
-
   function handleSubmit(e) {
-      e.preventDefault();
+    e.preventDefault();
   }
 
   const [description, setDescription] = useState("Test");
+  const [selection, setSelection] = useState("1");
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
       <h3> what do you need for your 😍 trip?</h3>
-      <select>
-        {Array.from({length:20}, (_, i) => i+1).map(num=><option value={num} key={num}>
-          {num}
-        </option>)
-        }
+      <select
+       type="select"
+       value={selection}
+       onChange={(e) => setSelection(e.target.value)}
+      >
+        {Array.from({ length: 20 }, (_, i) => i + 1).map((num) => (
+          <option value={num} key={num}>
+            {num}
+          </option>
+        ))}
       </select>
-      <input type='text' placeholder="Item..." value={description} onChange= {(e)=> setDescription(e.target.value)}/>
+      <input
+        type="text"
+        placeholder="Item..."
+        value={description}
+        onChange={(e) => setDescription(e.target.value)}
+      />
       <button>Add</button>
     </form>
   );
@@ -59,7 +69,7 @@ function PackingList() {
 function Item({ item }) {
   return (
     <li>
-      <span style={item.packed ? {textDecoration:'line-through'} : {}}>
+      <span style={item.packed ? { textDecoration: "line-through" } : {}}>
         {item.quantity} {item.description}
         <button>❌</button>
       </span>
