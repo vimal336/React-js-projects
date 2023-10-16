@@ -27,7 +27,7 @@ function Form() {
       e.preventDefault();
   }
 
-  const [description, setDescription] = useState("");
+  const [description, setDescription] = useState("Test");
 
 
   return (
