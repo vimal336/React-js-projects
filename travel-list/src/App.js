@@ -29,14 +29,6 @@ function Form() {
 
   const [description, setDescription] = useState("Test");
 
-  
-  function handleChange(e) {
-    setDescription(e.target.value)
-}
-
-
-
-
   return (
     <form className="add-form" onSubmit={handleSubmit}>
       <h3> what do you need for your 😍 trip?</h3>
@@ -46,7 +38,7 @@ function Form() {
         </option>)
         }
       </select>
-      <input type='text' placeholder="Item..." value={description} onChange={handleChange}/>
+      <input type='text' placeholder="Item..." value={description} onChange= {(e)=> setDescription(e.target.value)}/>
       <button>Add</button>
     </form>
   );
