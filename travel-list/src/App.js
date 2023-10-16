@@ -33,7 +33,6 @@ function Form() {
     <form className="add-form" onSubmit={handleSubmit}>
       <h3> what do you need for your 😍 trip?</h3>
       <select
-       type="select"
        value={quantity}
        onChange={(e) => setQuantity(e.target.value)}
       >
