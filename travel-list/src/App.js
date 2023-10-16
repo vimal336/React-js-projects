@@ -27,15 +27,15 @@ function Form() {
   }
 
   const [description, setDescription] = useState("Test");
-  const [selection, setSelection] = useState("1");
+  const [quantity, setQuantity] = useState("1");
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
       <h3> what do you need for your 😍 trip?</h3>
       <select
        type="select"
-       value={selection}
-       onChange={(e) => setSelection(e.target.value)}
+       value={quantity}
+       onChange={(e) => setQuantity(e.target.value)}
       >
         {Array.from({ length: 20 }, (_, i) => i + 1).map((num) => (
           <option value={num} key={num}>
