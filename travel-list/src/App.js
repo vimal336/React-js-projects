@@ -30,8 +30,8 @@ function Form() {
   const [description, setDescription] = useState("Test");
 
   
-  function setDescription(e) {
-    e.target.value
+  function handleChange(e) {
+    setDescription(e.target.value)
 }
 
 
@@ -46,7 +46,7 @@ function Form() {
         </option>)
         }
       </select>
-      <input type='text' placeholder="Item..." value={description} onChange={setDescription }/>
+      <input type='text' placeholder="Item..." value={description} onChange={handleChange}/>
       <button>Add</button>
     </form>
   );
