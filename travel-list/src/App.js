@@ -24,6 +24,9 @@ function Logo() {
 function Form() {
   function handleSubmit(e) {
     e.preventDefault();
+
+    const newItem = {description, quantity, packed: true, id: Date.now()};
+    console.log(newItem);
   }
 
   const [description, setDescription] = useState("Test");
