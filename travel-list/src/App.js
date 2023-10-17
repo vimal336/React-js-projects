@@ -29,6 +29,9 @@ function Form() {
 
     const newItem = {description, quantity, packed: true, id: Date.now()};
     console.log(newItem);
+
+    setDescription("");
+    setQuantity(1);
   }
 
   const [description, setDescription] = useState("Test");
