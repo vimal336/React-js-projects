@@ -49,8 +49,24 @@ function FlashCards() {
   return (
     <div className="flashcards">
       <div>
-        <h1>hello</h1>
+      <ul>
+        {questions.map((Question) => (
+          <Question Question={Question} key={Question.id} />
+        ))}
+        </ul>
       </div>
     </div>
+  );
+}
+
+
+function Question({ Question }) {
+  return (
+    <li>
+      <span style={Question.packed ? { textDecoration: "line-through" } : {}}>
+        {Question.quantity} {Question.description}
+        <button>❌</button>
+      </span>
+    </li>
   );
 }
