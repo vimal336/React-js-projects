@@ -50,8 +50,8 @@ function FlashCards() {
     <div className="flashcards">
       <div>
       <ul>
-        {questions.map((Question) => (
-          <Question Question={Question} key={Question.id} />
+        {questions.map((item) => (
+          <Item item={item} key={item.id} />
         ))}
         </ul>
       </div>
@@ -60,11 +60,11 @@ function FlashCards() {
 }
 
 
-function Question({ Question }) {
+function Item({ item }) {
   return (
     <li>
-      <span style={Question.packed ? { textDecoration: "line-through" } : {}}>
-        {Question.quantity} {Question.description}
+      <span style={item.packed ? { textDecoration: "line-through" } : {}}>
+        {item.quantity} {item.description}
         <button>❌</button>
       </span>
     </li>
