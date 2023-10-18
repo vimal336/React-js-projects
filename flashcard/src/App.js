@@ -49,23 +49,18 @@ function FlashCards() {
   return (
     <div className="flashcards">
       <div>
-      <ul>
-        {questions.map((item) => (
-          <Item item={item} key={item.id} />
-        ))}
+        <ul>
+          {questions.map((item) => (
+            <Item item={item} key={item.id} />
+          ))}
         </ul>
       </div>
     </div>
   );
 }
 
-
 function Item({ item }) {
   return (
-    <li>
-      <span style={item.question}>
-        <button>❌</button>
-      </span>
-    </li>
-  );
+  <p>{item.question}</p>
+  )
 }
