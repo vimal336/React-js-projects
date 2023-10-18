@@ -5,6 +5,11 @@ export default function App() {
   return (
     <div className="App">
       <FlashCards />
+      <FlashCards />
+      <FlashCards />
+      <FlashCards />
+      <FlashCards />
+      <FlashCards />
     </div>
   );
 }
