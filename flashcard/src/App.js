@@ -61,6 +61,6 @@ function FlashCards() {
 
 function Item({ item }) {
   return (
-  <p>{item.question}</p>
+  <li>{item.question}</li>
   )
 }
