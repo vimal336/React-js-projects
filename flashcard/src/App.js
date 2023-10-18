@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./styles.css";
 
 export default function App() {
@@ -43,5 +44,14 @@ const questions = [
 ];
 
 function FlashCards() {
-  return <div>TODO</div>;
+
+  const [card, setCard] = useState("");
+
+  return (
+  <div className="flashcards">
+    <h1>hello</h1>
+  </div>
+  )
+
 }
+
