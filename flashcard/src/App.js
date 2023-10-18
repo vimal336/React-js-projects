@@ -63,8 +63,7 @@ function FlashCards() {
 function Item({ item }) {
   return (
     <li>
-      <span style={item.packed ? { textDecoration: "line-through" } : {}}>
-        {item.quantity} {item.description}
+      <span style={item.question}>
         <button>❌</button>
       </span>
     </li>
