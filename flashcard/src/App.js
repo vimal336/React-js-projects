@@ -53,3 +53,13 @@ return(
 );
 
 }
+
+
+function Answer(props) {
+  return (
+    <div className="flashcards">
+      <h2>Name: {props.name}</h2>
+      <p>Age: {props.age}</p>
+    </div>
+  );
+}
