@@ -4,12 +4,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <FlashCards />
-      <FlashCards />
-      <FlashCards />
-      <FlashCards />
-      <FlashCards />
-      <FlashCards />
+      <FlashCards question = 'What language is React based on?' answer = 'Javascript'/>
     </div>
   );
 }
@@ -51,12 +46,21 @@ const questions = [
 function FlashCards() {
   const [card, setCard] = useState("");
 
+
+  const cardChange = (e) => {
+    setCard(e.target.value);
+    setCard(card = {})
+  };
+
+
   return (
     <div className="flashcards">
       <div>
-        <ul>
-          {questions.map((item) => (
-            <Item item={item} key={item.id} />
+        <ul onClick={cardChange}>
+          {questions.map((question) => (
+           <div key={question.id}>
+           <h3>Question: {question.question}</h3>
+         </div>
           ))}
         </ul>
       </div>
@@ -64,8 +68,3 @@ function FlashCards() {
   );
 }
 
-function Item({ item }) {
-  return (
-  <li>{item.question}</li>
-  )
-}
