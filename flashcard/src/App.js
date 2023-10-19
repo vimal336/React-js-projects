@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./styles.css";
 
 export default function App() {
@@ -43,8 +44,15 @@ const questions = [
 ];
 
 function FlashCards() {
+
+  const [ans, setAns] = useState("")
+
+  displayAnswer(){
+    
+  }
+
   return (
-    <div>
+    <div onClick={displayAnswer}>
       {questions.map((question) => (
         <Answer question={question.question} />
       ))}
