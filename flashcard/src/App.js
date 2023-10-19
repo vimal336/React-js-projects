@@ -47,8 +47,8 @@ function FlashCards() {
 
   const [ans, setAns] = useState("")
 
-  displayAnswer(){
-    
+  function displayAnswer(){
+    setAns(setAns(!ans))
   }
 
   return (
