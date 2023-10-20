@@ -44,28 +44,30 @@ const questions = [
 ];
 
 function FlashCards() {
+  const [ans, setAns] = useState("");
 
+  function displayAnswer() {
+    setAns(() => {
+      
+    });
+    setAns(!ans);
+  }
 
   return (
-    <div>
+    <div className="flashcards">
       {questions.map((question) => (
-        <Answer question={question.question} />
+       <div>
+        <p>{question.question}</p>
+       </div>
       ))}
     </div>
   );
 }
 
 function Answer(props) {
-  
-  const [ans, setAns] = useState("")
-
-  function displayAnswer(){
-    setAns(!ans);
-  }
   return (
     <div className="flashcards">
-      <div  className={`selected ${ans ? 'setAns' : ''}`}
-    onClick={displayAnswer}>
+      <div key = {question.id}>
         <h2>question: {props.question}</h2>
       </div>
     </div>
