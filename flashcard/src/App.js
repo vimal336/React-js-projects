@@ -28,7 +28,7 @@ const questions = [
   {
     id: 1297,
     question: "How to pass data from parent to child components?",
-    answer: "Props",
+    answer: "Props..",
   },
   {
     id: 9103,
