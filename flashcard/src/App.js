@@ -45,14 +45,7 @@ const questions = [
 
 function FlashCards() {
   const [selectedId, setSelectedId] = useState(null);
-
-  function displayAnswer() {
-    setAns(() => {
-      
-    });
-    setAns(!ans);
-  }
-
+  
   return (
     <div className="flashcards">
       {questions.map((question) => (
