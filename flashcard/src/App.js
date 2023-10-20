@@ -44,7 +44,7 @@ const questions = [
 ];
 
 function FlashCards() {
-  const [selectedId, setSelectedId] = useState("");
+  const [selectedId, setSelectedId] = useState(null);
 
   function displayAnswer() {
     setAns(() => {
