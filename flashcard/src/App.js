@@ -45,10 +45,10 @@ const questions = [
 
 function FlashCards() {
   const [selectedId, setSelectedId] = useState(null);
-  
+
   return (
     <div className="flashcards">
-      {questions.map((question) => (
+      {questions.map((questions) => (
        <div key = {question.id}>
         <p>{question.question}</p>
        </div>
