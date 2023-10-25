@@ -47,8 +47,10 @@ function FlashCards() {
   const [selectedId, setSelectedId] = useState(false);
 
 
+
+
   return (
-    <div className="flashcards">
+    <div onClick={changeBg} className="flashcards">
       {questions.map((question) => (
        <div className={isSpecial ? 'special' : 'regular'}> key = {question.id}>
         <p>{question.question}</p>
