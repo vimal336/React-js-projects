@@ -44,12 +44,13 @@ const questions = [
 ];
 
 function FlashCards() {
-  const [selectedId, setSelectedId] = useState(null);
+  const [selectedId, setSelectedId] = useState(false);
+
 
   return (
     <div className="flashcards">
       {questions.map((question) => (
-       <div key = {question.id}>
+       <div className={isSpecial ? 'special' : 'regular'}> key = {question.id}>
         <p>{question.question}</p>
        </div>
       ))}
