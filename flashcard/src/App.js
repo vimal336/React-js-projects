@@ -28,7 +28,7 @@ const questions = [
   {
     id: 1297,
     question: "How to pass data from parent to child components?",
-    answer: "Props..",
+    answer: "Props",
   },
   {
     id: 9103,
@@ -57,12 +57,3 @@ function FlashCards() {
   );
 }
 
-function Answer(props) {
-  return (
-    <div className="flashcards">
-      <div>
-        <h2>question: {props.question}</h2>
-      </div>
-    </div>
-  );
-}
