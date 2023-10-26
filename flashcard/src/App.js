@@ -54,9 +54,7 @@ function changeBg(){
   return (
     <div className="flashcards">
       {questions.map((question) => (
-       <div style={{
-        backgroundColor: setSelectedId ? 'white' : 'red',
-      }} key = {question.id}>
+       <div key = {question.id}>
         <p>{question.question}</p>
        </div>
       ))}
