@@ -46,10 +46,6 @@ const questions = [
 function FlashCards() {
   const [selectedId, setSelectedId] = useState(9103);
 
-function changeBg(){
-  
-
-
   return (
     <div className="flashcards">
       {questions.map((question) => (
