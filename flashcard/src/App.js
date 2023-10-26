@@ -54,7 +54,7 @@ function changeBg(){
   return (
     <div className="flashcards">
       {questions.map((question) => (
-       <div key = {question.id}>
+       <div key = {question.id} className={question.id === selsecteddId ? "selected" : ""}>
         <p>{question.question}</p>
        </div>
       ))}
