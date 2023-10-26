@@ -44,7 +44,7 @@ const questions = [
 ];
 
 function FlashCards() {
-  const [selectedId, setSelectedId] = useState(white);
+  const [selectedId, setSelectedId] = useState(9103);
 
 function changeBg(){
   
@@ -54,7 +54,7 @@ function changeBg(){
     <div className="flashcards">
       {questions.map((question) => (
        <div key = {question.id} className={question.id === selectedId ? "selected" : ""}>
-        <p>{question.question}</p>
+        <p>{question.id === selectedId ? question.answer : question.question}</p>
        </div>
       ))}
     </div>
@@ -62,4 +62,3 @@ function changeBg(){
     
   );
 }
-
