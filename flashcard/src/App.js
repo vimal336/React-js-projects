@@ -44,25 +44,26 @@ const questions = [
 ];
 
 function FlashCards() {
-  const [selectedId, setSelectedId] = useState(false);
+  const [selectedId, setSelectedId] = useState(white);
 
 function changeBg(){
-  setSelectedId(!selectedId)
+  setSelectedId(red)
 }
 
 
   return (
-    <div onClick={changeBg} className="flashcards">
+    <div className="flashcards">
       {questions.map((question) => (
-       <div  style={{
-        backgroundColor: isBackgroundRed ? 'red' : 'blue',
-        width: '200px',
-        height: '200px',
-      }}> key = {question.id}>
+       <div style={{
+        backgroundColor: setSelectedId ? 'red' : 'blue',
+      }} key = {question.id}>
         <p>{question.question}</p>
        </div>
       ))}
+         <button onClick={changeBg}>Toggle Background Color</button>
     </div>
+
+    
   );
 }
 
