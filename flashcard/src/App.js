@@ -55,12 +55,11 @@ function changeBg(){
     <div className="flashcards">
       {questions.map((question) => (
        <div style={{
-        backgroundColor: setSelectedId ? 'red' : 'blue',
+        backgroundColor: setSelectedId ? 'white' : 'red',
       }} key = {question.id}>
         <p>{question.question}</p>
        </div>
       ))}
-         <button onClick={changeBg}>Toggle Background Color</button>
     </div>
 
     
