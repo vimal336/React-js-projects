@@ -47,8 +47,7 @@ function FlashCards() {
   const [selectedId, setSelectedId] = useState(white);
 
 function changeBg(){
-  setSelectedId(red)
-}
+  
 
 
   return (
