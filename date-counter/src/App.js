@@ -50,8 +50,6 @@ function Counter2() {
         type="range"
         min="0"
         max="100"
-        value={value}
-        onChange={}
       />
         <button onClick={countInc}>+</button>
       </div>
