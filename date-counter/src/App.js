@@ -48,7 +48,10 @@ function Counter2() {
 
       <div>
         <button onClick={countDec}>-</button>
-        
+        <input
+        type="inputbox"
+        value={0}
+        />
         <button onClick={countInc}>+</button>
       </div>
       <div>
