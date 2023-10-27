@@ -46,7 +46,13 @@ function Counter2() {
 
       <div>
         <button onClick={countDec}>-</button>
-        <span>  count : {count} </span> 
+        <input
+        type="range"
+        min="0"
+        max="100"
+        value={value}
+        onChange={}
+      />
         <button onClick={countInc}>+</button>
       </div>
       <div>
