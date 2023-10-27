@@ -39,18 +39,16 @@ function Counter2() {
     <>
       <h1>Date counter app</h1>
       <div>
-        <button onClick={stepDec}>-</button>
-        <span>  step : {step}  </span> 
-        <button onClick={stepInc}>+</button>
-      </div>
-
-      <div>
-        <button onClick={countDec}>-</button>
-        <input
+      <input
         type="range"
         min="0"
         max="100"
       />
+      </div>
+
+      <div>
+        <button onClick={countDec}>-</button>
+        
         <button onClick={countInc}>+</button>
       </div>
       <div>
