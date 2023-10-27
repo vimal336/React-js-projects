@@ -5,12 +5,12 @@ function App() {
 
   return (
     <div className="App">
-      <Counter />
+      <Counter2 />
     </div>
   );
 }
 
-function Counter() {
+function Counter2() {
   const [step, setStep] = useState(1);
   const [count, setCount] = useState(0);
 
