@@ -43,15 +43,14 @@ function Counter2() {
         type="range"
         min="1"
         max="100"
-        value={1}
       />
+      1
       </div>
 
       <div>
         <button onClick={countDec}>-</button>
         <input
-        type="inputbox"
-        value={0}
+       type="text" value={inputValue} onChange={handleChange}
         />
         <button onClick={countInc}>+</button>
       </div>
