@@ -14,6 +14,8 @@ function Counter2() {
   const [step, setStep] = useState(1);
   const [count, setCount] = useState(0);
 
+  const [inputValue, setInputValue] = useState(0);
+
   const date = new Date("june 21 2027");
   date.setDate(date.getDate() + count);
 
