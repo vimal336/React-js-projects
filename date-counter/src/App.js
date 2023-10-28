@@ -37,6 +37,7 @@ function Counter2() {
 
   const handleChange = (e) => {
     setInputValue(e.target.value);
+    setInputValue(inputValue+0);
   };
 
   return (
