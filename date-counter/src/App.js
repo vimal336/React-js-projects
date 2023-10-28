@@ -19,11 +19,11 @@ function Counter2() {
   const date = new Date("june 21 2027");
   date.setDate(date.getDate() + count);
 
-  function countDec() {
+  function handleCount() {
     setCount((c) => count - step);
   }
 
-  function countInc() {
+  function handleCount() {
     setCount((c) => count + step);
   }
 
@@ -37,7 +37,7 @@ function Counter2() {
 
       <div>
         <button onClick={countDec}>-</button>
-        <input type="text" value={inputValue} onChange={handleChange}  />
+        <input type="text" value={inputValue} onChange={handleCount}  />
         <button onClick={countInc}>+</button>
       </div>
       <div>
