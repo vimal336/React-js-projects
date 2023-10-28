@@ -19,26 +19,14 @@ function Counter2() {
   const date = new Date("june 21 2027");
   date.setDate(date.getDate() + count);
 
-  function stepDec() {
-    setStep((s) => s - 1);
-  }
-
-  function stepInc() {
-    setStep((s) => s + 1);
-  }
-
   function countDec() {
-    setCount((c) => c - step);
+    setCount((c) => count - step);
   }
 
-  function countInc(props) {
-    setCount((c) => c + step);
+  function countInc() {
+    setCount((c) => count + step);
   }
 
-  const handleChange = (e) => {
-    setInputValue(e.target.value);
-    setInputValue(inputValue+0);
-  };
 
   return (
     <>
@@ -49,7 +37,7 @@ function Counter2() {
 
       <div>
         <button onClick={countDec}>-</button>
-        <input type="text" value={inputValue} onChange={handleChange} button ={inputValue} />
+        <input type="text" value={inputValue} onChange={handleChange}  />
         <button onClick={countInc}>+</button>
       </div>
       <div>
@@ -60,6 +48,7 @@ function Counter2() {
               : count > 0
               ? `${count} days from today is `
               : `${Math.abs(count)} days ago was `}
+              {inputValue}
           </span>
           <span>{date.toDateString()}</span>
         </p>
