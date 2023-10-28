@@ -20,11 +20,11 @@ function Counter2() {
   date.setDate(date.getDate() + count);
 
   function handleCount() {
-    setCount((c) => count - step);
+    setCount((c) => count - 1);
   }
 
   function handleCount() {
-    setCount((c) => count + step);
+    setCount((c) => count + 1);
   }
 
 
