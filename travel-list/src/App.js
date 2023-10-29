@@ -23,6 +23,11 @@ function Logo() {
 }
 
 function Form() {
+
+  const [description, setDescription] = useState("Test");
+  const [quantity, setQuantity] = useState("1");
+  const [items, setItems] = useState([]); 
+  
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -34,10 +39,6 @@ function Form() {
     setDescription("");
     setQuantity(1);
   }
-
-  const [description, setDescription] = useState("Test");
-  const [quantity, setQuantity] = useState("1");
-  const [items, setItems] = useState([]);
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
