@@ -11,35 +11,50 @@ function App() {
 }
 
 function Counter2() {
-  const [step, setStep] = useState(1);
   const [count, setCount] = useState(0);
-
-  const [inputValue, setInputValue] = useState(1);
+  const [sliderValue, setSliderValue] = useState(1);
 
   const date = new Date("june 21 2027");
   date.setDate(date.getDate() + count);
 
-  function handleCount() {
-    setCount((c) => count - 1);
+  function handleDec() {
+    setCount((c) => count - sliderValue);
   }
 
-  function handleCount() {
-    setCount((c) => count + 1);
+  function handleInc() {
+    setCount((c) => count + sliderValue);
   }
+
+  const handleSliderChange = (e) => {
+    setSliderValue(parseInt(e.target.value, 10));
+  };
+
+
+  const handleInputChange = (e) => {
+    const value = parseInt(e.target.value, 10) || 0;
+    setCount(value);
+  };
+
+  const handleResetSlider = () => {
+    // Reset the slider to its initial value (e.g., 50)
+    setSliderValue(1);
+  };
 
 
   return (
     <>
       <h1>Date counter app</h1>
       <div>
-        <input type="range" min="1" max="100" />1
+        <input type="range" min="1" max="10"  onChange={handleSliderChange}/>10
       </div>
 
       <div>
-        <button onClick={handleCount}>-</button>
-        <input type="text" value={inputValue} onChange={handleCount}  />
-        <button onClick={handleCount}>+</button>
+        <button onClick={handleDec}>-</button>
+        <input type="text" value={count} onChange={handleInputChange}/>
+        <button onClick={handleInc}>+</button>
       </div>
+      <button onClick={handleResetSlider}>Reset Slider</button>
+      <p>Slider Value: {sliderValue}</p>
       <div>
         <p>
           <span>
@@ -48,7 +63,6 @@ function Counter2() {
               : count > 0
               ? `${count} days from today is `
               : `${Math.abs(count)} days ago was `}
-              {inputValue}
           </span>
           <span>{date.toDateString()}</span>
         </p>
