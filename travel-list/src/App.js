@@ -37,6 +37,7 @@ function Form() {
 
   const [description, setDescription] = useState("Test");
   const [quantity, setQuantity] = useState("1");
+  const [items, setItems] = useState();
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
