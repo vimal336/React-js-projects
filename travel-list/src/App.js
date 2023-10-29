@@ -40,7 +40,7 @@ function Form() {
     const newItem = {description, quantity, packed: true, id: Date.now()};
     console.log(newItem);
 
-    onAddItems(newItem)
+    onAddItems(newItems)
 
     setDescription("");
     setQuantity(1);
