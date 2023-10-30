@@ -21,6 +21,10 @@ function Counter2() {
     setCount((c) => count - sliderValue);
   }
 
+  function addSlide() {
+    setCount((c) => count + addSlide);
+  }
+
   function handleInc() {
     setCount((c) => count + sliderValue);
   }
