@@ -43,6 +43,7 @@ function Counter2() {
   const handleResetSlider = () => {
     // Reset the slider to its initial value (e.g., 50)
     setSliderValue(1);
+    setSlide(1);
   };
 
 
@@ -50,7 +51,7 @@ function Counter2() {
     <>
       <h1>Date counter app</h1>
       <div>
-        <input type="range" min="1" max="10" value={slide} onChange={handleSliderChange}/>10
+        <input type="range" min="1" max="10" value={addSlide} onChange={handleSliderChange}/>10
       </div>
 
       <div>
