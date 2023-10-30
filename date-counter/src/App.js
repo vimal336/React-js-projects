@@ -22,7 +22,7 @@ function Counter2() {
   }
 
   function addSlide() {
-    setCount((c) => count + addSlide);
+    setCount((c) => count + 1);
   }
 
   function handleInc() {
