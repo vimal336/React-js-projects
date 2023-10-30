@@ -31,7 +31,7 @@ function Counter2() {
 
 
   const handleInputChange = (e) => {
-    const value = parseInt(e.target.value, 10) || 0;
+    const value = (Number(e.target.value, 10)) || 0;
     setCount(value);
   };
 
