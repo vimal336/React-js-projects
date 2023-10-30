@@ -26,7 +26,7 @@ function Counter2() {
   }
 
   const handleSliderChange = (e) => {
-    setSliderValue(parseInt(e.target.value, 10));
+    setSliderValue(Number(e.target.value, 10));
   };
 
 
