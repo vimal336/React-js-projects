@@ -12,7 +12,7 @@ function App() {
 
 function Counter2() {
   const [count, setCount] = useState(0);
-  const [slide, addSlide] = useState(0);
+  const [slide, setSlide] = useState(0);
   const [sliderValue, setSliderValue] = useState(1);
 
   const date = new Date("june 21 2027");
@@ -23,7 +23,7 @@ function Counter2() {
   }
 
   function addSlide() {
-    setCount((c) => slide + 1);
+    setSlide((c) => slide + 1);
   }
 
   function handleInc() {
