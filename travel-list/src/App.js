@@ -22,7 +22,7 @@ function Logo() {
   return <h1> 🌴 Far Away 👜 </h1>;
 }
 
-function Form() {
+function Form({onAddItems}) {
 
   const [description, setDescription] = useState("Test");
   const [quantity, setQuantity] = useState("1");
