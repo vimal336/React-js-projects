@@ -9,6 +9,8 @@ const initialItems = [
 
 export default function App() {
 
+  const [items, setItems] = useState([]); 
+
   function handleAddItems(item){
     setItems((items) => [...items, item]);
   }
@@ -31,7 +33,7 @@ function Form({onAddItems}) {
 
   const [description, setDescription] = useState("Test");
   const [quantity, setQuantity] = useState("1");
-  const [items, setItems] = useState([]); 
+  
 
  
   function handleSubmit(e) {
