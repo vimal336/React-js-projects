@@ -45,7 +45,6 @@ function Form({onAddItems}) {
     console.log(newItem);
 
     onAddItems(newItem)
-    setitems()
     setDescription("");
     setQuantity(1);
   }
