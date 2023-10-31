@@ -22,18 +22,9 @@ function Counter2() {
     setCount((c) => count - sliderValue);
   }
 
-  function addSlide() {
-    setSlide((c) => slide + 1);
-  }
-
   function handleInc() {
     setCount((c) => count + sliderValue);
   }
-
-  const handleSliderChange = (e) => {
-    setSliderValue(Number(e.target.value, 10));
-  };
-
 
   const handleInputChange = (e) => {
     const value = (Number(e.target.value, 10)) || 0;
@@ -51,7 +42,8 @@ function Counter2() {
     <>
       <h1>Date counter app</h1>
       <div>
-        <input type="range" min="1" max="10" value={slide} onChange={handleSliderChange}/>10
+        <input type="range" min="1" max="10" value={slide}  onChange={(e) => setSlide(Number(e.target.value))}/>
+        <span>{slide}</span>
       </div>
 
       <div>
