@@ -15,7 +15,9 @@ export default function App() {
     setItems((items) => [...items, item]);
   }
 
-  function 
+  function handleDeleteItems(){
+    
+  }
  
   return (
     <div className="app">
