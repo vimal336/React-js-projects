@@ -16,7 +16,7 @@ export default function App() {
   }
 
   function handleDeleteItems(){
-    setItems((items=>items.filter(item=>item.id)))
+    setItems((items=>items.filter(item=>item.id !== id)))
   }
  
   return (
