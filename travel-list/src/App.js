@@ -14,6 +14,8 @@ export default function App() {
   function handleAddItems(item){
     setItems((items) => [...items, item]);
   }
+
+  function 
  
   return (
     <div className="app">
