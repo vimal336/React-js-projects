@@ -39,7 +39,7 @@ function Form({onAddItems}) {
   function handleSubmit(e) {
     e.preventDefault();
 
-    if(!description) return;
+
 
     const newItem = {description, quantity, packed: true, id: Date.now()};
     console.log(newItem);
