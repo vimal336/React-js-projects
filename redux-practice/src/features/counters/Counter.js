@@ -4,7 +4,9 @@ import { increment, decrement } from './counterSlice'
 
 const Counter = () => {
   return (
-   
+   <section>
+    <p>{count}</p>
+   </section>
   )
 }
 
