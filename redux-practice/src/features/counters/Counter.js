@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const counter = () => {
+export const Counter = () => {
   return (
    
   )
