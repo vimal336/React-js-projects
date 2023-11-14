@@ -1,15 +1,15 @@
-import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
-import { increment, decrement } from './counterSlice'
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { increment, decrement } from "./counterSlice";
 
 const Counter = () => {
-
-    const count = useSelector((state) => state.counter.count)
+  const count = useSelector((state) => state.counter.count);
+  const dispatch = useDispatch()
   return (
-   <section>
-    <p>{count}</p>
-   </section>
-  )
-}
+    <section>
+      <p>{count}</p>
+    </section>
+  );
+};
 
-export default Counter
+export default Counter;
