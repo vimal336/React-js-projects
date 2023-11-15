@@ -14,14 +14,14 @@ const Counter = () => {
     setIncrementAmount(0);
     dispatch(reset(0));
   }
+
   return (
-    <>
-    <p>{count}</p>
+  
     <section>
+    <p>{count}</p>
       <button onClick={() => dispatch(increment())}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
     </section>
-    </>
   );
 };
 
