@@ -17,7 +17,11 @@ export const counterSlice = createSlice({
         },
         reset: (state) => {
             state.count = 0;
+        },
+        incrementByAmount: (state, action) => {
+            
         }
+
     }
 
 });
