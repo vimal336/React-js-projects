@@ -4,7 +4,7 @@ import { increment, decrement, reset, incrementByAmount } from "./counterSlice";
 
 const Counter = () => {
   const count = useSelector((state) => state.counter.count);
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const [incrementAmount, setIncrementAmount] = useState(0);
 
@@ -13,14 +13,15 @@ const Counter = () => {
   const resetAll = () => {
     setIncrementAmount(0);
     dispatch(reset(0));
-  }
+  };
 
   return (
-  
     <section>
-    <p>{count}</p>
-      <button onClick={() => dispatch(increment())}>+</button>
-      <button onClick={() => dispatch(decrement())}>-</button>
+      <p>{count}</p>
+      <div>
+        <button onClick={() => dispatch(increment())}>+</button>
+        <button onClick={() => dispatch(decrement())}>-</button>
+      </div>
     </section>
   );
 };
