@@ -7,6 +7,8 @@ const Counter = () => {
   const dispatch = useDispatch()
 
   const [incrementAmount, setIncrementAmount] = useState(0);
+
+  const addValue = Number(incrementAmount) || 0;
   return (
     <>
     <p>{count}</p>
