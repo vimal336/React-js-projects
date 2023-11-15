@@ -9,6 +9,11 @@ const Counter = () => {
   const [incrementAmount, setIncrementAmount] = useState(0);
 
   const addValue = Number(incrementAmount) || 0;
+
+  const resetAll = () => {
+    setIncrementAmount(0);
+    dispatch(reset(0));
+  }
   return (
     <>
     <p>{count}</p>
