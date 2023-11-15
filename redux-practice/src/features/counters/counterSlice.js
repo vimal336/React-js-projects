@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { increment, decrement, reset, incrementByAmount} from './counterSlice'
 
 const initialState = {
     count: 0
