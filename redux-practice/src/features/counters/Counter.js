@@ -25,7 +25,7 @@ const Counter = () => {
       <input
         type="text"
         value={incrementAmount}
-        onChange={(e) => dispatch(incrementByAmount(addValue))}
+        onChange={(e) => setIncrementAmount(e.target.value)}
       />
       <div>
         <button onClick={() => dispatch(incrementByAmount(addValue))}>
