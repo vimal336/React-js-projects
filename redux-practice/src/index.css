@@ -35,6 +35,10 @@ button {
   min-width: 2em;
 }
 
+button:hover{
+  
+}
+
 button:first-child {
   margin-left: 0;
 }
