@@ -10,12 +10,12 @@ const initialState = [
         id: '2',
         title: 'Subscribe',
         content: 'Like and Share this video'
-       
+      
+    },
         {
             id: '3',
             title: 'Subscribe',
             content: 'Like and Share this video'
         }
-    }
 
 ]
