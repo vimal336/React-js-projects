@@ -9,7 +9,7 @@ const initialState = [
     {
         id: '2',
         title: 'Subscribe',
-        content: 'Like and Share this video'
+        content: 'Learning react'
       
     },
         {
