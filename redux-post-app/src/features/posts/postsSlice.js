@@ -7,8 +7,8 @@ const initialState = [
         content: 'It is easy'
     },
     {
-        id: '1',
-        title: 'Learning Redux Toolkit',
+        id: '2',
+        title: 'Subscribe',
         content: 'It is easy'
     }
 ]
