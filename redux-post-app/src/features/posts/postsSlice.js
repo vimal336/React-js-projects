@@ -9,6 +9,6 @@ const initialState = [
     {
         id: '2',
         title: 'Subscribe',
-        content: 'It is easy'
+        content: 'Like and Share this video'
     }
 ]
