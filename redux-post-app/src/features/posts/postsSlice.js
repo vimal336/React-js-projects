@@ -19,7 +19,7 @@ const initialState = [
         },
         {
             id:'4',
-            title:'View',
+            title:'Views',
             content:'Like, Share this video'
         }
 
