@@ -20,7 +20,7 @@ const initialState = [
         {
             id:'4',
             title:'View',
-            content:'Like'
+            content:'Like, Share'
         }
 
 ]
