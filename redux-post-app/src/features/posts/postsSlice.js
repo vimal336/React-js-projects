@@ -30,3 +30,5 @@ const postsSlice = createSlice({
     initialState,
     reducers:{}
 })
+
+export
