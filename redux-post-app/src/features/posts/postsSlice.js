@@ -26,5 +26,6 @@ const initialState = [
 ]
 
 const postsSlice = createSlice({
-    name: 'posts'
+    name: 'posts',
+    initialState,
 })
