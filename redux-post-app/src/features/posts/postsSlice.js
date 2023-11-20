@@ -24,3 +24,7 @@ const initialState = [
         }
 
 ]
+
+const postsSlice = createSlice({
+    
+})
