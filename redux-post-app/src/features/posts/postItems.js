@@ -1,3 +1,3 @@
 import { useSelector } from "react-redux";
 
-const posts = 
+const posts = useSelector((state))
