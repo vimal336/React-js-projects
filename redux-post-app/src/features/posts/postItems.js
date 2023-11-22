@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-const posts = useSelecte((state) => state.posts)
+const posts = useSelecter((state) => state.posts)
 
 return()
 
