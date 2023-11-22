@@ -12,5 +12,5 @@ return (
 
 }
 
-export default
+export default PostList
 
