@@ -4,7 +4,7 @@ const PostList = () => {
 
 const posts = useSelecter((state) => state.posts)
 
-const renderedPosts = posts.map()
+const renderedPosts = posts.map(post)
 
 return (
   <article key={posts.id}>
