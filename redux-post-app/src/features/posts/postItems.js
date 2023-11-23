@@ -8,7 +8,7 @@ const renderedPosts = posts.map()
 
 return (
   <article key={posts.id}>
-    <h3>{}</h3>
+    <h3>{posts.title}</h3>
   </article>
 )
 
