@@ -9,7 +9,7 @@ const renderedPosts = posts.map()
 return (
   <article key={posts.id}>
     <h3>{posts.title}</h3>
-    <p>{}</p>
+    <p>{posts.content.substring()}</p>
   </article>
 )
 
