@@ -6,12 +6,13 @@ const posts = useSelecter((state) => state.posts)
 
 const renderedPosts = posts.map(post => (
 
-return (
   <article key={posts.id}>
     <h3>{posts.title}</h3>
     <p>{posts.content.substring(0, 100)}</p>
   </article>
 ))
+
+
 
 }
 
