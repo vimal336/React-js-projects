@@ -14,7 +14,7 @@ const renderedPosts = posts.map(post => (
 
 return (
   <section>
-    <h2></h2>
+    <h2>Posts</h2>
   </section>
 )
 
