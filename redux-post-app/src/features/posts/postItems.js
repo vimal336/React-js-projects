@@ -12,6 +12,9 @@ const renderedPosts = posts.map(post => (
   </article>
 ))
 
+return (
+  
+)
 
 
 }
