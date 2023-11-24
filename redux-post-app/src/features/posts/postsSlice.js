@@ -31,4 +31,6 @@ const postsSlice = createSlice({
     reducers:{}
 })
 
+export const 
+
 export default postsSlice.reducer
