@@ -36,5 +36,5 @@ const postsSlice = createSlice({
 })
 
 export const selectAllPosts = (state) => state.posts;
-export const { postAdded }
+export const { postAdded } = postsSlice.actions
 export default postsSlice.reducer
