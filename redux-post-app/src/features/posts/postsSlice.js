@@ -30,6 +30,7 @@ const postsSlice = createSlice({
     initialState,
     reducers:{
         postAdded(state, action)
+            state
     }
 })
 
