@@ -28,7 +28,9 @@ const initialState = [
 const postsSlice = createSlice({
     name: 'posts',
     initialState,
-    reducers:{}
+    reducers:{
+        postAdded()
+    }
 })
 
 export const selectAllPosts = (state) => state.posts;
