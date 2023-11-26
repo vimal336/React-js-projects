@@ -2,7 +2,7 @@ import { useState  } from "react";
 
 const AddPostsForm = () => {
 
-const [title, setTitle]
+const [title, setTitle] = useState('')
 
   return (
     
