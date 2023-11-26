@@ -7,7 +7,7 @@ const [content, setContent] = useState('')
 
   return (
     <section>
-        <h2></h2>
+        <h2> Add a New Post </h2>
     </section>
   )
 
