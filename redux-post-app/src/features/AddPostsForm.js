@@ -6,7 +6,9 @@ const [title, setTitle] = useState('')
 const [content, setContent] = useState('')
 
   return (
-    
+    <section>
+        
+    </section>
   )
 
 }
