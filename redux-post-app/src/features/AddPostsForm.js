@@ -13,6 +13,7 @@ const [content, setContent] = useState('')
           type = "text"
           id="postTitle"
           name="postTitle"
+          value={title}
 
           />
         </form>
