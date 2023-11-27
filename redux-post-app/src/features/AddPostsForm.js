@@ -12,6 +12,7 @@ const [content, setContent] = useState('')
           <input
           type = "text"
           id="postTitle"
+          name="postTitle"
 
           />
         </form>
