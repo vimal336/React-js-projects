@@ -16,7 +16,7 @@ const [content, setContent] = useState('')
           value={title}
           onChange={onTitleChanged}
           />
-          <label htmlFor=""
+          <label htmlFor="postContent">Content</label>
         </form>
     </section>
   )
