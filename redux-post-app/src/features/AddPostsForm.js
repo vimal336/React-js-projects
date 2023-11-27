@@ -9,6 +9,9 @@ const [content, setContent] = useState('')
     <section>
         <h2> Add a New Post </h2>
         <form>
+          <input>
+          
+          </input>
           type = "text"
         </form>
     </section>
