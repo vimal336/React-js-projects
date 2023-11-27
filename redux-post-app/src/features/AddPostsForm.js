@@ -14,7 +14,7 @@ const [content, setContent] = useState('')
           id="postTitle"
           name="postTitle"
           value={title}
-          onChange={}
+          onChange={onTitleChanged}
           />
         </form>
     </section>
