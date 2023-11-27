@@ -11,6 +11,8 @@ const [content, setContent] = useState('')
         <form>
           <input
           type = "text"
+
+          />
         </form>
     </section>
   )
