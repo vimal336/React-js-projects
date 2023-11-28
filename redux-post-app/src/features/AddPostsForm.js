@@ -21,6 +21,7 @@ const [content, setContent] = useState('')
            id="postContent"
            name="postContent"
            value={content}
+           onChange={onContentChanged}
           />
         </form>
     </section>
