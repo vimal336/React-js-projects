@@ -1,7 +1,9 @@
 import { useState  } from "react";
+import { useDispatch } from "react-redux";
 
 const AddPostForm = () => {
 
+const dispatch = useDispatch() 
 const [title, setTitle] = useState('')
 const [content, setContent] = useState('')
 
