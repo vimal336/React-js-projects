@@ -20,6 +20,7 @@ const [content, setContent] = useState('')
           <textarea
            id="postContent"
            name="postContent"
+           value={content}
           />
         </form>
     </section>
