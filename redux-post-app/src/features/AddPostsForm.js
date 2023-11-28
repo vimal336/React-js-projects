@@ -19,6 +19,7 @@ const [content, setContent] = useState('')
           <label htmlFor="postContent">Content:</label>
           <textarea
            id="postContent"
+           name="postContent"
           />
         </form>
     </section>
