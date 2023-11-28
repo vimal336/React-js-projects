@@ -1,6 +1,6 @@
 import { useState  } from "react";
 
-const AddPostsForm = () => {
+const AddPostForm = () => {
 
 const [title, setTitle] = useState('')
 const [content, setContent] = useState('')
@@ -30,4 +30,4 @@ const [content, setContent] = useState('')
 }
 
 
-export default AddPostsForm
+export default AddPostForm
