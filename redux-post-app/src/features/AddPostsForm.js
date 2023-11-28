@@ -17,6 +17,9 @@ const [content, setContent] = useState('')
           onChange={onTitleChanged}
           />
           <label htmlFor="postContent">Content:</label>
+          <textarea>
+            
+          </textarea>
         </form>
     </section>
   )
