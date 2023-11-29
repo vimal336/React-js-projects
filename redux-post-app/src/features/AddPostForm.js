@@ -12,8 +12,9 @@ const [content, setContent] = useState('')
 const onTitleChanged = e => setTitle(e.target.value)
 const onContentChanged = e => setContent(e.target.value)
 
-const onSavePostClicked
-
+const onSavePostClicked = () =>{
+  
+}
   return (
     <section>
         <h2> Add a New Post </h2>
