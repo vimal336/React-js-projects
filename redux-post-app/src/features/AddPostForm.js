@@ -12,7 +12,7 @@ const [content, setContent] = useState('')
 const onTitleChanged = e => setTitle(e.target.value)
 const onContentChanged = e => setContent(e.target.value)
 
-const 
+const onSavePostClcked
 
   return (
     <section>
