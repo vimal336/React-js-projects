@@ -14,7 +14,9 @@ const onContentChanged = e => setContent(e.target.value)
 
 const onSavePostClicked = () =>{
   if(title && content){
-    
+    dispatch(
+      
+    )
   }
 }
   return (
