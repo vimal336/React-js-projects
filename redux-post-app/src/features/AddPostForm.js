@@ -13,7 +13,7 @@ const onTitleChanged = e => setTitle(e.target.value)
 const onContentChanged = e => setContent(e.target.value)
 
 const onSavePostClicked = () =>{
-  if(title)
+  if(title && content)
 }
   return (
     <section>
