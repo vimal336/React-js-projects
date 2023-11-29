@@ -9,7 +9,7 @@ const dispatch = useDispatch()
 const [title, setTitle] = useState('')
 const [content, setContent] = useState('')
 
-const 
+const onTitleChanged = e => setTitle(e.target.value)
 
   return (
     <section>
