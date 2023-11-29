@@ -9,6 +9,8 @@ const dispatch = useDispatch()
 const [title, setTitle] = useState('')
 const [content, setContent] = useState('')
 
+const 
+
   return (
     <section>
         <h2> Add a New Post </h2>
