@@ -17,7 +17,8 @@ const onSavePostClicked = () =>{
     dispatch(
       postAdded(
         {
-          
+          id: nanoid(),
+          title,
         }
       )
     )
