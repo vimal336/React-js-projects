@@ -42,7 +42,9 @@ const onSavePostClicked = () =>{
            value={content}
            onChange={onContentChanged}
           />
-          <button>
+          <button
+           type="button"
+          >
             
           </button>
         </form>
