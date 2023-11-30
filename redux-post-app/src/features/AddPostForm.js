@@ -40,7 +40,7 @@ const AddPostForm = () => {
           onChange={onContentChanged}
         />
         <button type="button"
-        onClick={}> Save Post</button>
+        onClick={onSavePostClicked}> Save Post</button>
       </form>
     </section>
   );
