@@ -9,7 +9,7 @@ const AddPostForm = () => {
   const [content, setContent] = useState("");
 
   const onSavePostClicked = () =>{
-    if()
+    if(title && )
   }
 
   const onTitleChanged = (e) => setTitle(e.target.value);
