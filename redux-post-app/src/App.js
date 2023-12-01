@@ -1,11 +1,12 @@
 import AddPostForm from "./features/AddPostForm";
 import Counter from "./features/counters/Counter";
+import PostList from "./features/posts/postItems";
 
 function App() {
   return (
     <main>
       <AddPostForm/>
-      
+      <PostList/>
      
     </main>
   );
