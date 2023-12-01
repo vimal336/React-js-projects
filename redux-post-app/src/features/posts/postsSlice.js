@@ -32,7 +32,11 @@ const postsSlice = createSlice({
         postAdded(state, action) {
             state.push(action.payload)
         },
-        prepare(title,content)
+        prepare(title,content){
+            return{
+                
+            }
+        }
     }
 })
 
