@@ -17,6 +17,7 @@ const AddPostForm = () => {
         postAdded({
           id: nanoid(),
           title,
+          content
         })
       );
     }
