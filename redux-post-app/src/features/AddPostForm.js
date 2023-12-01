@@ -4,9 +4,9 @@ import { nanoid } from "@reduxjs/toolkit";
 import { postAdded } from "./postsSlice";
 
 const AddPostForm = () => {
-  const dispatch = useDispatch();
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
+  const dispatch = useDispatch()
+  const [title, setTitle] = useState("")
+  const [content, setContent] = useState("")
 
   const onTitleChanged = (e) => setTitle(e.target.value);
   const onContentChanged = (e) => setContent(e.target.value);
