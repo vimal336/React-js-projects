@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 
 const PostList = () => {
 
-const posts = useSelector(selectAllPosts)
+const posts = useSelector()
 
 const renderedPosts = posts.map(post => (
 
