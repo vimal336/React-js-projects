@@ -4,10 +4,7 @@ const PostList = () => {
 
 const posts = useSelector((state) => state.posts)
 
-const renderedPosts = posts.map(post => (
-
- 
-))
+const renderedPosts = posts.m
 
 return (
   <section>
