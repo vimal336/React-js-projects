@@ -14,7 +14,7 @@ const AddPostForm = () => {
   const onSavePostClicked = () => {
     if (title && content) {
       dispatch(
-        postAdded()
+        postAdded(title, content)
       );
     }
   };
