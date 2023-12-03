@@ -1,4 +1,4 @@
-import AddPostForm from "./features/AddPostForm";
+import AddPostForm from "./features/posts/AddPostForm";
 import PostList from "./features/posts/postList";
 
 function App() {
