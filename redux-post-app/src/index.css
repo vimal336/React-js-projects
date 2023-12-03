@@ -30,7 +30,7 @@ input {
   max-width: 2.5em;
 }
 
-button {
+button textarea{
   font-size: 2rem;
   margin: 0.5em 0 0.5em 0.5em;
   min-width: 2em;
