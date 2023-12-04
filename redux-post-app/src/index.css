@@ -24,3 +24,8 @@ select {
   margin-bottom: 1em;
 }
 
+main {
+  max-width: 500px;
+  margin: auto;
+}
+
