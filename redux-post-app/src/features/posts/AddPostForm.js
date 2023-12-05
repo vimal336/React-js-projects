@@ -17,6 +17,7 @@ const AddPostForm = () => {
         postAdded(title, content)
       )
       setTitle('')
+      setContent('')
     }
   };
   return (
