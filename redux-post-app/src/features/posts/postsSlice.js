@@ -15,7 +15,7 @@ const initialState = [
         {
             id: '3',
             title: 'Subscribe',
-            content: 'Like and Share this video'
+            content: 'Like and Share this videos'
         },
         {
             id:'4',
