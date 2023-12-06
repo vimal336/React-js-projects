@@ -38,6 +38,8 @@ const AddPostForm = () => {
           value={content}
           onChange={onContentChanged}
         />
+
+        console.log(textarea)
         <button type="button"
         onClick={onSavePostClicked}> Save Post</button>
       </form>
