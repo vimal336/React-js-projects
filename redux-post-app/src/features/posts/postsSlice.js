@@ -38,7 +38,7 @@ const postsSlice = createSlice({
                 payload:{
                     id:nanoid(),
                     title,
-                    content,
+                    content
                 }
             }
         }
