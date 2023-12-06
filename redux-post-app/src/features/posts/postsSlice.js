@@ -43,6 +43,7 @@ const postsSlice = createSlice({
             }
         }
     }
+}
 })
 
 export const selectAllPosts = (state) => state.posts;
