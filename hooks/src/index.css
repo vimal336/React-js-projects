@@ -45,11 +45,3 @@ h1 {
   margin-top: 16px;
 }
 
-.skill {
-  padding: 2px 12px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 500;
-}
