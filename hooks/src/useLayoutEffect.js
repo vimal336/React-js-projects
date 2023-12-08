@@ -12,7 +12,7 @@ export default function App() {
     return (
         <>
         <button onClick={() => setNumber(pn => pn + 1)}>
-
+          Increment
         </button>
         </>
     )
