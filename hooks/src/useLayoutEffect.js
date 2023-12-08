@@ -9,6 +9,9 @@ export default function App() {
 
     },[number]);
 
-    
+    return (
+        <>
+        </>
+    )
 
 }
