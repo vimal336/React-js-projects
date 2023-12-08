@@ -7,6 +7,6 @@ export default function App() {
      
         console.log(number);
 
-    },[])
+    },[number])
 
 }
