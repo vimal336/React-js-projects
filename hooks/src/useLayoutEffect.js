@@ -14,7 +14,8 @@ export default function App() {
         <button onClick={() => setNumber(pn => pn + 1)}>
           Increment
         </button>
+        <div>{number}</div>
         </>
-    )
+    );
 
 }
