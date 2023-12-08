@@ -5,7 +5,7 @@ export default function App() {
 
     useEffect(() => {
      
-        console.log(number)
+        console.log(number);
 
     },[])
 
