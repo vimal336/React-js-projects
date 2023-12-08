@@ -11,7 +11,7 @@ export default function App() {
 
     return (
         <>
-        <button onClick={}>
+        <button onClick={() => setNumber()}>
 
         </button>
         </>
