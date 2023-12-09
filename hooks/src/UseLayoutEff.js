@@ -8,7 +8,7 @@ import React from "react";
     const button = useRef();
 
     useEffect(() => {
-     
+     if(popup.current == null || )
       
 
     },[show]);
