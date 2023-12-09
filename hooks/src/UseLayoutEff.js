@@ -9,7 +9,7 @@ import React from "react";
 
     useEffect(() => {
      
-        console.log(number);
+      
 
     },[number]);
 
