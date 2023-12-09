@@ -15,7 +15,7 @@ function UseLayoutEff() {
 
   return (
     <>
-      <button>
+      <button ref={button}>
         Click here
       </button>
       <div>{number}</div>
