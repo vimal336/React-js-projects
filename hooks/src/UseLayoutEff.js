@@ -15,7 +15,7 @@ function UseLayoutEff() {
 
   return (
     <>
-      <button ref={button}>
+      <button ref={button} onClick={()=> setShow(pv => !pv)}>
         Click here
       </button>
       <div>{number}</div>
