@@ -8,7 +8,8 @@ import React from "react";
     const button = useRef();
 
     useEffect(() => {
-     if(popup.current == null || button.current == null)
+     if(popup.current == null || button.current == null) return 
+     const { bottom } = button.current.getBoundingClientREct()
       
 
     },[show]);
