@@ -10,6 +10,7 @@ import React from "react";
     useEffect(() => {
      if(popup.current == null || button.current == null) return 
      const { bottom } = button.current.getBoundingClientREct()
+     popup.current.style.top = `${button + 25}px`
       
 
     },[show]);
