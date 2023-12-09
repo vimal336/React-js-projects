@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 
  function UseLayoutEff() {
-    const [number, setNumber] = useState(1);
+    const [number, setNumber] = useState(false);
 
     useEffect(() => {
      
