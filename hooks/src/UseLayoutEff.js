@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
+import React from "react";
 
-export default function App() {
+ function UseLayoutEff() {
     const [number, setNumber] = useState(1);
 
     useEffect(() => {
@@ -18,4 +19,6 @@ export default function App() {
         </>
     );
 
-}
+};
+
+export default UseLayoutEff;
