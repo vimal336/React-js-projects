@@ -5,6 +5,7 @@ import React from "react";
     const [show, setShow] = useState(false);
 
     const popup = useRef();
+    const button = useRef();
 
     useEffect(() => {
      
