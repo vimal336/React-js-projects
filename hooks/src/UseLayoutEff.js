@@ -1,29 +1,26 @@
 import { useState, useEffect, useRef } from "react";
 import React from "react";
 
- function UseLayoutEff() {
-    const [show, setShow] = useState(false);
+function UseLayoutEff() {
+  const [show, setShow] = useState(false);
 
-    const popup = useRef();
-    const button = useRef();
+  const popup = useRef();
+  const button = useRef();
 
-    useEffect(() => {
-     if(popup.current == null || button.current == null) return 
-     const { bottom } = button.current.getBoundingClientREct()
-     popup.current.style.top = `${button + 25}px`
-      
+  useEffect(() => {
+    if (popup.current == null || button.current == null) return;
+    const { bottom } = button.current.getBoundingClientREct();
+    popup.current.style.top = `${button + 25}px`;
+  }, [show]);
 
-    },[show]);
-
-    return (
-        <>
-        <button onClick={() => setNumber(pn => pn + 1)}>
-          Increment
-        </button>
-        <div>{number}</div>
-        </>
-    );
-
-};
+  return (
+    <>
+      <button>
+        
+      </button>
+      <div>{number}</div>
+    </>
+  );
+}
 
 export default UseLayoutEff;
