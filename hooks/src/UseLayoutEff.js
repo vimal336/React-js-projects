@@ -11,7 +11,7 @@ import React from "react";
      
       
 
-    },[number]);
+    },[show]);
 
     return (
         <>
