@@ -10,6 +10,6 @@ const initialState =[
 
 const userSlice = createSlice({
 
-    name: 'users'
-
+    name: 'users',
+    initialState,
 })
