@@ -7,3 +7,7 @@ const initialState =[
     {id:'2', name: 'Ram'},
 
 ]
+
+const userSlice = createSlice({
+    
+})
