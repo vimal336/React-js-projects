@@ -4,6 +4,6 @@ const initialState =[
 
     {id:'0', name: 'vimal'},
     {id:'1', name: 'Ravi'},
-    {id:'0', name: 'vimal'},
+    {id:'2', name: 'Ram'},
 
 ]
