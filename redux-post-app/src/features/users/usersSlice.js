@@ -15,4 +15,4 @@ const userSlice = createSlice({
     reducers:{}
 })
 
-export const selectAllPosts = { stste }
+export const selectAllPosts = ( state ) => state.users
