@@ -34,6 +34,7 @@ const AddPostForm = () => {
         />
 
         <label htmlFor="postAuthor">cAuthor:</label>
+        <select id=""
         <label htmlFor="postContent">Content:</label>
         <textarea
           id="postContent"
