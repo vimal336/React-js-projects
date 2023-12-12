@@ -34,7 +34,7 @@ const AddPostForm = () => {
         />
 
         <label htmlFor="postAuthor">cAuthor:</label>
-        <select id="postAuthor">
+        <select id="postAuthor" value={userId}>
 
         </select>
         <label htmlFor="postContent">Content:</label>
