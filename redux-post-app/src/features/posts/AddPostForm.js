@@ -33,7 +33,7 @@ const AddPostForm = () => {
           onChange={onTitleChanged}
         />
 
-        <label></label>
+        <label htmlFor="postAuthor">cAuthor:</label>
         <label htmlFor="postContent">Content:</label>
         <textarea
           id="postContent"
