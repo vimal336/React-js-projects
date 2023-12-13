@@ -20,7 +20,7 @@ const AddPostForm = () => {
       setTitle('')
       setContent('')
     }
-  };
+  }
   return (
     <section>
       <h2> Add a New Post </h2>
