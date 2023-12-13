@@ -22,7 +22,7 @@ const AddPostForm = () => {
     }
   }
 
-  const 
+  const usersOptions
   return (
     <section>
       <h2> Add a New Post </h2>
