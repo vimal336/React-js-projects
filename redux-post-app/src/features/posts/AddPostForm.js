@@ -22,7 +22,10 @@ const AddPostForm = () => {
     }
   }
 
-  const usersOptions = users.map
+  const usersOptions = users.map(user => (
+
+    <option></option>
+  ))
   return (
     <section>
       <h2> Add a New Post </h2>
