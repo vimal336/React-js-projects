@@ -24,7 +24,7 @@ const AddPostForm = () => {
 
   const usersOptions = users.map(user => (
 
-    <option></option>
+    <option key={user.id}></option>
   ))
   return (
     <section>
