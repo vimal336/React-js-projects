@@ -22,7 +22,7 @@ const AddPostForm = () => {
     }
   }
 
-  const canSave = Boolean(title) && Boolean(content) && Boolean(userId)
+  const canSave = Boolean(title) && Boolean(content) && Boolean(user.Id)
 
   const usersOptions = users.map(user => (
 
