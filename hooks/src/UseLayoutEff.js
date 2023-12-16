@@ -20,7 +20,7 @@ function UseLayoutEff() {
       </button>
       {
         show && (
-          <div style={{ position:"absolute"}} ref={}></div>
+          <div style={{ position:"absolute"}} ref={popup}></div>
         )    }
     </>
   );
