@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useLayoutEffect, useRef } from "react";
 import React from "react";
 
 function UseLayoutEff() {
@@ -22,7 +22,7 @@ function UseLayoutEff() {
         show && (
           <div style={{ position:"absolute"}} ref={popup}>
 
-            This is popup
+            This is popup 
           </div>
         )    }
     </>
