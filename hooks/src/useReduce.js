@@ -4,7 +4,7 @@ import { Reducer } from "react";
 
 export default function Reducers(){
 
-    const [state, dispatch] = useReducer(transaction)
+    const [state, dispatch] = useReducer(transactionReducer, 1000)
     return(
         <>
 
