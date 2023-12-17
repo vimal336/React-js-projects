@@ -2,7 +2,7 @@ import React, { useReducer } from "react";
 
 import { Reducer } from "react";
 
-const transactionReducer = (state, action)
+const transactionReducer = (state, action) =>
 
 export default function Reducers(){
 
