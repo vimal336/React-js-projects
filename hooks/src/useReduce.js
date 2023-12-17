@@ -4,6 +4,8 @@ import { Reducer } from "react";
 
 export default function Reducers(){
     return(
+        <>
         
+        </>
     )
 }
