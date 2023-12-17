@@ -9,7 +9,7 @@ function UseLayoutEff() {
 
   useLayoutEffect(() => {
     if (popup.current == null || button.current == null) return;
-    const { bottom } = button.current.getBoundingClientREct();
+    const { bottom } = button.current.getBoundingClientRect();
     popup.current.style.top = `${button + 25}px`;
   }, [show]);
 
