@@ -2,9 +2,10 @@ import React, { useReducer } from "react";
 
 import { Reducer } from "react";
 
-const transactionReducer = (state, action) =>{
-   switch(action.type){
+const transactionReducer = (state,action) => {
+   switch (action.type){
     case 'WITHDRAW':
+        return state - action.payload
    }
 }
 
