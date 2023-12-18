@@ -3,7 +3,9 @@ import React, { useReducer } from "react";
 import { Reducer } from "react";
 
 const transactionReducer = (state, action) =>{
-   switch(action.type)
+   switch(action.type){
+    
+   }
 }
 
 export default function Reducers(){
