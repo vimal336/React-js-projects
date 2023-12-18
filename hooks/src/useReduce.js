@@ -12,7 +12,7 @@ export default function Reducers(){
         dispatch({type:"WITHDRAW",payload:amount})
     }
 
-    const withdraw = (amount) => {
+    const deposite = (amount) => {
         dispatch({type:"DEPOSIT",payload:amount})
     }
 
