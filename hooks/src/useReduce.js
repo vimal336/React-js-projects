@@ -24,7 +24,7 @@ export default function Reducers(){
     const [state, dispatch] = useReducer(transactionReducer, 1000)
     return(
         <>
-       <h3></h3>
+       <h3>{}</h3>
 
         
         </>
