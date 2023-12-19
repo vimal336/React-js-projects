@@ -27,7 +27,7 @@ export default function Reducers(){
        <h3>{`Balance is${state}`}</h3>
        <button onClick={withdraw(500)}></button>
 
-       <button onClick={withdraw(500)}></button>
+       <button onClick={deposite(500)}></button>
         </>
     )
 }
