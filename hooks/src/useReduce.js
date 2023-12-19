@@ -17,7 +17,7 @@ export default function Reducers(){
         dispatch({type:"WITHDRAW",payload:amount})
     }
 
-    const deposite = (amount) => {
+    const deposit = (amount) => {
         dispatch({type:"DEPOSIT",payload:amount})
     }
 
