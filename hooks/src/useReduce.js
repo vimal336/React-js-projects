@@ -8,6 +8,7 @@ const transactionReducer = (state,action) => {
         return state - action.payload
     case 'DEPOSIT':
             return state - action.payload
+    default :
    }
 }
 
