@@ -6,6 +6,8 @@ const transactionReducer = (state,action) => {
    switch (action.type){
     case 'WITHDRAW':
         return state - action.payload
+    case 'DEPOSIT':
+            return state - action.payload
    }
 }
 
