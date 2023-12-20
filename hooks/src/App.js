@@ -6,7 +6,7 @@ function App() {
     <main>
      <h1>hooks</h1>
      <UseLayoutEff/>
-     <u
+     <reducer/>
     </main>
   );
 }
