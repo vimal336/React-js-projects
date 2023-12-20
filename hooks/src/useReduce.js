@@ -13,7 +13,7 @@ const transactionReducer = (state,action) => {
    }
 }
 
-export default function reducers(){
+export default function useReduce(){
 
     const withdraw = (amount) => {
         dispatch({type:"WITHDRAW",payload:amount})
