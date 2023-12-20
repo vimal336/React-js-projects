@@ -22,7 +22,7 @@ function UseLayoutEff() {
         show && (
           <div style={{ position:"absolute"}} ref={popup}>
 
-            This is popup message
+            This is popup
           </div>
         )    }
     </>
