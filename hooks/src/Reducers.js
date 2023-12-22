@@ -3,7 +3,7 @@ import { useReducer } from "react";
 
 export default function Reducers(){
 
-    const with
+    const withdraw = (amount)
 
     const[state, dispatch] = useReducer
     return(
