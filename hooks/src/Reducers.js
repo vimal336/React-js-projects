@@ -7,6 +7,10 @@ export default function Reducers(){
         dispatch({type:'DEPOSIT', payload:amount})
     }
 
+    const withdraw = (amount) => {
+        dispatch({type:'DEPOSIT', payload:amount})
+    }
+
     const[state, dispatch] = useReducer
     return(
         <>
