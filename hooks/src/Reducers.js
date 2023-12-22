@@ -4,7 +4,7 @@ import { useReducer } from "react";
 export default function Reducers(){
 
     const withdraw = (amount) => {
-        dispatch({})
+        dispatch({type:'DEPOSIT'})
     }
 
     const[state, dispatch] = useReducer
