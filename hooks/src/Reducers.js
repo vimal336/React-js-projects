@@ -3,7 +3,7 @@ import { useReducer } from "react";
 
 const transactionReducer = (state,action) => {
     switch(action.type) {
-        case 'WITHDRAW'
+        case 'WITHDRAW':
         return state - action.payload
     }
 }
