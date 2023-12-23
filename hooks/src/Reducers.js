@@ -7,7 +7,7 @@ export default function Reducers(){
         dispatch({type:'DEPOSIT', payload:amount})
     }
 
-    const withdraw = (amount) => {
+    const deposit = (amount) => {
         dispatch({type:'DEPOSIT', payload:amount})
     }
 
