@@ -4,6 +4,7 @@ import { useReducer } from "react";
 const transactionReducer = (state,action) => {
     switch(action.type) {
         case 'WITHDRAW'
+        return state
     }
 }
 
