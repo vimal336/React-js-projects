@@ -5,7 +5,7 @@ const transactionReducer = (state,action) => {
     switch(action.type) {
        case 'WITHDRAW':
             return state - action.payload
-       case
+       case  ''
     }
 }
 
