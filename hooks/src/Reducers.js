@@ -25,7 +25,7 @@ export default function Reducers(){
     const[state, dispatch] = useReducer
     return(
         <>
-          
+          <h3></h3>
         </>
     )
 }
