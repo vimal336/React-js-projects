@@ -22,7 +22,7 @@ export default function Reducers(){
         dispatch({type:'DEPOSIT', payload:amount})
     }
 
-    const[state, dispatch] = useReducer(transactionReducer)
+    const[state, dispatch] = useReducer(transactionReducer,1000)
     return(
         <>
           <h3>{`balance is ${state}`}</h3>
