@@ -12,7 +12,7 @@ const transactionReducer = (state,action) => {
     }
 }
 
-export default function Reducers(transactionReducer,1000){
+export default function Reducers(){
 
     const withdraw = (amount) => {
         dispatch({type:'DEPOSIT', payload:amount})
@@ -22,7 +22,7 @@ export default function Reducers(transactionReducer,1000){
         dispatch({type:'DEPOSIT', payload:amount})
     }
 
-    const[state, dispatch] = useReducer()
+    const[state, dispatch] = useReducer(transactionReducer)
     return(
         <>
           <h3>{`balance is ${state}`}</h3>
