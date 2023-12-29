@@ -29,7 +29,7 @@ export default function useReduce(){
        <h3>{`Balance is${state}`}</h3>
        <button onClick={()=>withdraw(500)}>Withdraw</button>
 
-       <button onClick={()=>deposit(500)}>Deposit</button>
+       <button onClick={()=>deposit(500)}>Deposited</button>
         </>
     )
 }
