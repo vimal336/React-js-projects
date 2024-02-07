@@ -8,7 +8,6 @@ function App() {
      <h1>hooks</h1>
      <UseLayoutEff/>
      <Useredu/>
-     <UserCard/>
     </main>
   );
 }
