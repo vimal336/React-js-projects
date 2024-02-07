@@ -7,8 +7,8 @@ function App() {
   return (
     <main>
      <h1>hooks</h1>
-     <UseLayoutEff/>
-     <Useredu/>
+     {/* <UseLayoutEff/>
+     <Useredu/> */}
      <UsersCard/>
     </main>
   );
