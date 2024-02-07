@@ -1,7 +1,7 @@
 import React from "react";
 import UseLayoutEff from "./UseLayoutEff";
 import Useredu from "./useReduce";
-import 
+import { userCard } from "./components/userCard";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
      <h1>hooks</h1>
      <UseLayoutEff/>
      <Useredu/>
-     <
+     <userCard/>
     </main>
   );
 }
