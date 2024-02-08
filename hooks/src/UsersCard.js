@@ -1,7 +1,7 @@
 function User(){
    return <div className="card-container">
     <span className="pro"> ONLINE</span>
-    <img src="images/man.png" />
+    <img src="images/man.png" alt="man" />
    </div>
 }
 export const UsersCard = () => {
