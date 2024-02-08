@@ -1,6 +1,6 @@
 function User(){
    return <div className="card-container">
-    <span className=""> </span>
+    <span className="pro"> </span>
    </div>
 }
 export const UsersCard = () => {
