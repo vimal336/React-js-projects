@@ -1,8 +1,8 @@
 function User(){
-  
+
 }
 export const UsersCard = () => {
   return (
-    <div>UsersCard</div>
+    <div><User/></div>
   )
 }
