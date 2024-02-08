@@ -1,5 +1,5 @@
 function User(){
-   return <div className=""></div>
+   return <div className="card-container"></div>
 }
 export const UsersCard = () => {
   return (
