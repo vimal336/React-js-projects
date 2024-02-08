@@ -1,5 +1,5 @@
 function User(){
-   return
+   return <div></div>
 }
 export const UsersCard = () => {
   return (
