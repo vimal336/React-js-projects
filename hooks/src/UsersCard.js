@@ -13,6 +13,9 @@ function User(){
     </div>
     <div>
       <h6>Skills</h6>
+      <ul>
+        
+      </ul>
     </div>
    </div>
    );
