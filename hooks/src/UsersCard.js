@@ -14,7 +14,7 @@ function User(){
     <div>
       <h6>Skills</h6>
       <ul>
-        
+        <li></li>
       </ul>
     </div>
    </div>
