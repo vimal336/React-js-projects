@@ -9,6 +9,7 @@ function User(){
     <p>front-end developer </p>
     <div>
       <button></button>
+      <button></button>
     </div>
    </div>
    );
