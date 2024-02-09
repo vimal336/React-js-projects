@@ -8,7 +8,7 @@ function User(){
     <h3>Salem</h3>
     <p>front-end developer </p>
     <div>
-      <button></button>
+      <button>Message</button>
       <button></button>
     </div>
    </div>
