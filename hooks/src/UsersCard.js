@@ -11,6 +11,9 @@ function User(){
       <button>Message</button>
       <button>Following</button>
     </div>
+    <div>
+      
+    </div>
    </div>
    );
 }
