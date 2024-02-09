@@ -7,6 +7,9 @@ function User(){
     <h3>Full name</h3>
     <h3>Salem</h3>
     <p>front-end developer </p>
+    <div>
+      
+    </div>
    </div>
    );
 }
