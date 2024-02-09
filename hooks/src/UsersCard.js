@@ -5,6 +5,7 @@ function User(){
     <span className="pro"> ONLINE</span>
     <img src="images/prof.jfif" alt="man" />
     <h3>Full name</h3>
+    <h3></h3>
    </div>
    );
 }
