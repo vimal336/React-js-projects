@@ -6,7 +6,7 @@ function User(){
     <img src="images/prof.jfif" alt="man" />
     <h3>Full name</h3>
     <h3>Salem</h3>
-    <p>front-end </p>
+    <p>front-end developer </p>
    </div>
    );
 }
