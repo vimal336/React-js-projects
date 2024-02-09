@@ -12,7 +12,7 @@ function User(){
       <button>Following</button>
     </div>
     <div>
-      
+      <h6></h6>
     </div>
    </div>
    );
