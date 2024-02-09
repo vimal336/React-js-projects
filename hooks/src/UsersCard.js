@@ -5,6 +5,7 @@ function User(){
     <span className="pro"> ONLINE</span>
     <img src="images/prof.jfif" alt="man" />
    </div>
+   );
 }
 export const UsersCard = () => {
   return (
