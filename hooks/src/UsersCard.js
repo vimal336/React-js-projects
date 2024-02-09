@@ -4,6 +4,7 @@ function User(){
    <div className="card-container">
     <span className="pro"> ONLINE</span>
     <img src="images/prof.jfif" alt="man" />
+    <h3></h3>
    </div>
    );
 }
