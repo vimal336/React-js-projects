@@ -18,7 +18,7 @@ function User(){
         <li>Front-end developer</li>
         <li>web developer</li>
         <li>cyber security</li>
-        <li>digital</li>
+        <li>digital marketing</li>
       </ul>
     </div>
    </div>
