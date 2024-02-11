@@ -18,7 +18,7 @@ function User(){
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
-        <li>digital marketing</li>
+        <li>React</li>
         <li>full stack developement</li>
         <li>website</li>
       </ul>
