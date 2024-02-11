@@ -17,7 +17,7 @@ function User(){
         <li>UI/UX</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>cyber security</li>
+        <li>JavaScript</li>
         <li>digital marketing</li>
         <li>full stack developement</li>
         <li>website</li>
