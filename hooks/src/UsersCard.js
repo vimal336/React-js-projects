@@ -20,7 +20,6 @@ function User(){
         <li>JavaScript</li>
         <li>React</li>
         <li>Node</li>
-        <li>website</li>
       </ul>
     </div>
    </div>
