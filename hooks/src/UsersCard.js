@@ -19,7 +19,7 @@ function User(){
         <li>CSS</li>
         <li>JavaScript</li>
         <li>React</li>
-        <li>full stack developement</li>
+        <li>Node</li>
         <li>website</li>
       </ul>
     </div>
