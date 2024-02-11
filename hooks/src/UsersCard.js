@@ -15,7 +15,7 @@ function User(){
       <h6>Skills</h6>
       <ul>
         <li>UI/UX</li>
-        <li>Html</li>
+        <li>HTML</li>
         <li>css</li>
         <li>cyber security</li>
         <li>digital marketing</li>
