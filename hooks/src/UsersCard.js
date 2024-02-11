@@ -16,7 +16,7 @@ function User(){
       <ul>
         <li>UI/UX</li>
         <li>HTML</li>
-        <li>css</li>
+        <li>CSS</li>
         <li>cyber security</li>
         <li>digital marketing</li>
         <li>full stack developement</li>
