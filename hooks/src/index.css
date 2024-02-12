@@ -8,6 +8,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+#root{
+  
+}
+
 .card-container img{
   height: 200px;
   margin-bottom: 20px;
