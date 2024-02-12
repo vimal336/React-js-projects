@@ -5,11 +5,10 @@
 }
 
 body {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "Inter"
 }
 
 .card-container img{
   height: 200px;
   margin-bottom: 20px;
-  border-radius: 1p;
 }
