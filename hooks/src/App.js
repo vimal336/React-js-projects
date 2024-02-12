@@ -1,7 +1,6 @@
 import React from "react";
 import UseLayoutEff from "./UseLayoutEff";
 import Useredu from "./useReduce";
-import "./"
 import { UsersCard } from "./UsersCard";
 
 function App() {
