@@ -9,7 +9,7 @@ body {
 }
 
 #root{
-  
+  display: flex;
 }
 
 .card-container img{
