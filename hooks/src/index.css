@@ -9,5 +9,6 @@ body {
 }
 
 .card-container img{
-
+  height: 200px;
+  margin-top: 20px;
 }
