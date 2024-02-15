@@ -52,5 +52,6 @@ p{
 }
 
 .pro{
-  color:#231e39
+  color:#231e39;
+  background-color: red;
 }
