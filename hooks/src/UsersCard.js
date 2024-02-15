@@ -7,7 +7,7 @@ function User(){
     <h3>Vimal S</h3>
     <h3>villupuram</h3>
     <p>front-end developer </p>
-    <div>
+    <div className ="buttons">
       <button>Message</button>
       <button>Following</button>
     </div>
