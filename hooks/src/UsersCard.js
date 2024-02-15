@@ -9,7 +9,7 @@ function User(){
     <p>front-end developer </p>
     <div className ="buttons">
       <button className="primary">Message</button>
-      <button className="primary">Following</button>
+      <button className="primary outline">Following</button>
     </div>
     <div>
       <h6>Skills</h6>
