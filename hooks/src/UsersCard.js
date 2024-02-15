@@ -11,7 +11,7 @@ function User(){
       <button className="primary">Message</button>
       <button className="primary outline">Following</button>
     </div>
-    <div className="">
+    <div className="skills">
       <h6>Skills</h6>
       <ul>
         <li>UI/UX</li>
