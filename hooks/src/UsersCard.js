@@ -5,7 +5,7 @@ function User(){
     <span className="pro"> ONLINE</span>
     <img src="images/prof.jfif" className="img" alt="man" />
     <h3>Vimal S</h3>
-    <h3>villupuram</h3>
+    <h3>Villupuram</h3>
     <p>front-end developer </p>
     <div className ="buttons">
       <button className="primary">Message</button>
