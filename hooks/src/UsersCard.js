@@ -6,7 +6,7 @@ function User(props){
     <img src="images/prof.jfif" className="img" alt="man" />
     <h3>{props.name}</h3>
     <h3>Villupuram</h3>
-    <p>front-end developer </p>
+    <p>{props.role}</p>
     <div className ="buttons">
       <button className="primary">Message</button>
       <button className="primary outline">Following</button>
