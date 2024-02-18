@@ -27,6 +27,6 @@ function User(props){
 }
 export const UsersCard = () => {
   return (
-    <div><User name = "vimal"/></div>
+    <div><User name = "Vimal S"/></div>
   )
 }
