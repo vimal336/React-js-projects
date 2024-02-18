@@ -1,4 +1,4 @@
-function User(){
+function User(props){
    return (
    
    <div className="card-container">
