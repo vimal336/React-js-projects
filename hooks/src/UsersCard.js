@@ -27,6 +27,11 @@ function User(props){
 }
 export const UsersCard = () => {
   return (
-    <div><User name = "Vimal S"/></div>
+    <div>
+      
+      <User name = "Vimal S"/>
+
+      <User role = "Front-end Developer"/>
+    </div>
   )
 }
