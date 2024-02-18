@@ -108,4 +108,5 @@ button.primary{
 
 .skills ul li{
   border: 1px solid #595180;
+  display: inline-block;
 }
