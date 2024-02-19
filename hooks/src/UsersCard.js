@@ -5,7 +5,7 @@ function User(props){
     <span className="pro"> ONLINE</span>
     <img src="images/prof.jfif" className="img" alt="man" />
     <h3>{props.name}</h3>
-    <h3>Villupuram</h3>
+    <h3></h3>
     <p>{props.role}</p>
     <div className ="buttons">
       <button className="primary">Message</button>
@@ -29,9 +29,11 @@ export const UsersCard = () => {
   return (
     <div>
       
-      <User name = "Vimal S"/>
+      <User 
+      name = "Vimal S"
+      role ="Front-End Developer"
+      />
 
-      <User role = "Front-end Developer"/>
     </div>
   )
 }
