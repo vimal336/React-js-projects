@@ -32,7 +32,7 @@ export const UsersCard = () => {
       <User 
       name = "Vimal S"
       role ="Front-End Developer"
-      place = 
+      place = "Villupuram"
       />
 
     </div>
