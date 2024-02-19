@@ -33,7 +33,7 @@ export const UsersCard = () => {
       name = "Vimal S"
       role ="Front-End Developer"
       place = "Villupuram"
-      skills = {["UI/UX", "HTML", "CSS" ]}
+      skills = {["UI/UX", "HTML", "CSS", "Javascript"]}
       />;
 
     </div>
