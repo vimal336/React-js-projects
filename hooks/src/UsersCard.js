@@ -15,7 +15,7 @@ function User(props){
       <h6>Skills</h6>
       <ul>
        {props.skills.map((skill, Index)=>{
-         
+         <li></li>
        })}
       </ul>
     </div>
