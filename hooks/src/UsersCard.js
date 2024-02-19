@@ -36,8 +36,8 @@ export const UsersCard = () => {
       />
 
       {
-        Array.map(()=>{
-          <h1>hello</h1>
+        Array.map((skill)=>{
+         <li></li>
         })
       }
 
