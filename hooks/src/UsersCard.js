@@ -33,14 +33,8 @@ export const UsersCard = () => {
       name = "Vimal S"
       role ="Front-End Developer"
       place = "Villupuram"
-      skills = "{[]}"
-      />
-
-      {
-        Array.map((skill)=>{
-         <li></li>
-        })
-      }
+      skills = {["UI/UX", ]}
+      />;
 
     </div>
   )
