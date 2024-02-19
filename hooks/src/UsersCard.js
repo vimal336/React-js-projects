@@ -14,12 +14,7 @@ function User(props){
     <div className="skills">
       <h6>Skills</h6>
       <ul>
-        <li>UI/UX</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node</li>
+       {props.skills}
       </ul>
     </div>
    </div>
