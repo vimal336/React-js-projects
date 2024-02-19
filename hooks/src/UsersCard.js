@@ -35,6 +35,12 @@ export const UsersCard = () => {
       place = "Villupuram"
       />
 
+      {
+        Array.map(()=>{
+          <h1></h1>
+        })
+      }
+
     </div>
   )
 }
