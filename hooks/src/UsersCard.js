@@ -3,7 +3,7 @@ function User(props){
    
    <div className="card-container">
     <span className="pro"> ONLINE</span>
-    <img src="images/prof.jfif" className="img" alt="man" />
+    <img src="{props.profile}" className="img" alt="man" />
     <h3>{props.name}</h3>
     <h3>{props.place}</h3>
     <p>{props.role}</p>
