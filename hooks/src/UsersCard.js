@@ -2,7 +2,7 @@ function User(props){
    return (
    
    <div className="card-container">
-    <span className={}> ONLINE</span>
+    <span className={props.online ? "pro online" : "pro offline"}> ONLINE</span>
     <img src={props.profile} className="img" alt="man" />
     <h3>{props.name}</h3>
     <h3>{props.place}</h3>
