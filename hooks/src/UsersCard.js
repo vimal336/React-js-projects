@@ -32,6 +32,7 @@ export const UsersCard = () => {
       place = "Villupuram"
       skills = {["UI/UX", "HTML", "CSS", "Javascript", "React", "Node"]}
       online = {true}
+      profile
       />;
 
     </div>
