@@ -31,7 +31,7 @@ export const UsersCard = () => {
       role ="Front-End Developer"
       place = "Villupuram"
       skills = {["UI/UX", "HTML", "CSS", "Javascript", "React", "Node"]}
-      online = {true}
+      online = {false}
       profile = "images/prof.jfif"
       />;
 
