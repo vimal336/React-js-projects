@@ -14,9 +14,9 @@ function User(props){
     <div className="skills">
       <h6>Skills</h6>
       <ul>
-       {props.skills.map((skill, index)=>{
+       {props.skills.map((skill, index) => (
          <li key={index}>{skill}</li>
-       })}
+       ))}
       </ul>
     </div>
    </div>
@@ -31,8 +31,11 @@ export const UsersCard = () => {
       role ="Front-End Developer"
       place = "Villupuram"
       skills = {["UI/UX", "HTML", "CSS", "Javascript", "React", "Node"]}
+      online = 
       />;
 
     </div>
   )
 }
+
+
