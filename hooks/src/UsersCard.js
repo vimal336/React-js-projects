@@ -8,12 +8,21 @@ const userData = [
     profile: "images/prof.jfif"
   },
   {
-
+    name : 'Vimal S',
+    city : "Villupuram",
+    role : 'Front-end Developer',
+    skills : ["UI/UX","Front-end Development", "HTML", "CSS"],
+    online : "false",
+    profile: "images/prof.jfif"
   },
   {
-
+    name : 'Vimal S',
+    city : "Villupuram",
+    role : 'Front-end Developer',
+    skills : ["UI/UX","Front-end Development", "HTML", "CSS"],
+    online : "false",
+    profile: "images/prof.jfif"
   },
-
 ]
 
 
@@ -42,9 +51,9 @@ function User(props){
    );
 }
 export const UsersCard = () => {
-  return <>
-  {
-    userData.map((user, index)=>(
+  return ( 
+  <>
+  {userData.map((user, index)=>(
        <User key={index} 
        name={user.value}
        city={user.city}
@@ -53,9 +62,9 @@ export const UsersCard = () => {
        online={user.online}
        profile={user.profile}
        />
-    ))
-  }
-  </>;
+    ))}
+  </>
+  );
 };
 
    
