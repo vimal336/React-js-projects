@@ -45,21 +45,25 @@ export const UsersCard = () => {
   return <>
   {
     userData.map((user, index)=>(
-       <User key={index} name={name.value}/>
+       <User key={index} 
+       name={user.value}
+       city={user.city}
+       
+       />
     ))
   }
   </>;
 };
 
    
-      {/* <User 
+      /* <User 
       name = "Vimal S"
       role ="Front-End Developer"
       place = "Villupuram"
       skills = {["UI/UX", "HTML", "CSS", "Javascript", "React", "Node"]}
       online = {false}
       profile = "images/prof.jfif"
-      />; */}
+      />; */
 
 
 
