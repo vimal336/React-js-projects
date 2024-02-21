@@ -3,7 +3,8 @@ const userData = [
     name : 'Vimal S',
     city : "Villupuram",
     role : 'Front-end Developer',
-    skills : ["UI/UX","Front-end Development", "HTML", "CSS"]
+    skills : ["UI/UX","Front-end Development", "HTML", "CSS"],
+    online : "false"
   },
   {
 
