@@ -1,6 +1,7 @@
 const userData = [
   {
     name : 'Vimal S'
+    city : "New York"
   },
   {
 
