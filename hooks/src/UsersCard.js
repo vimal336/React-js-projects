@@ -43,7 +43,7 @@ function User(props){
 }
 export const UsersCard = () => {
   return (
-    <div>
+    
       
       {/* <User 
       name = "Vimal S"
@@ -54,7 +54,6 @@ export const UsersCard = () => {
       profile = "images/prof.jfif"
       />; */}
 
-    </div>
   )
 }
 
