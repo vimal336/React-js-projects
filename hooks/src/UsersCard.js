@@ -45,7 +45,7 @@ export const UsersCard = () => {
   return <>
   {
     userData.map((user, index)=>(
-       <User/>
+       <User key={index} name={name.value}/>
     ))
   }
   </>;
