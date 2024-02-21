@@ -42,9 +42,12 @@ function User(props){
    );
 }
 export const UsersCard = () => {
-  return (
-    
-      
+  return <>
+   
+  </>;
+};
+
+   
       {/* <User 
       name = "Vimal S"
       role ="Front-End Developer"
@@ -54,7 +57,5 @@ export const UsersCard = () => {
       profile = "images/prof.jfif"
       />; */}
 
-  )
-}
 
 
