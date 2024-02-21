@@ -1,4 +1,15 @@
-const userData
+const userData = [
+  {
+
+  },
+  {
+
+  },
+  {
+
+  },
+  
+]
 
 
 function User(props){
