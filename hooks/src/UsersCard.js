@@ -48,7 +48,10 @@ export const UsersCard = () => {
        <User key={index} 
        name={user.value}
        city={user.city}
-       
+       role={user.role}
+       skills={user.skills}
+       online={user.online}
+       profile={user.profile}
        />
     ))
   }
