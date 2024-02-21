@@ -4,7 +4,8 @@ const userData = [
     city : "Villupuram",
     role : 'Front-end Developer',
     skills : ["UI/UX","Front-end Development", "HTML", "CSS"],
-    online : "false"
+    online : "false",
+    profile: "images/prof.jfif"
   },
   {
 
