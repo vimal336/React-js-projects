@@ -1,7 +1,8 @@
 const userData = [
   {
-    name : 'Vimal S'
-    city : "New York"
+    name : 'Vimal S',
+    city : "Villupuram"
+    role : 'Front-end Developer'
   },
   {
 
