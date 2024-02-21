@@ -44,7 +44,7 @@ function User(props){
 export const UsersCard = () => {
   return <>
   {
-    userData.map(()=>(
+    userData.map((user, index)=>(
        <User/>
     ))
   }
