@@ -45,14 +45,14 @@ export const UsersCard = () => {
   return (
     <div>
       
-      <User 
+      {/* <User 
       name = "Vimal S"
       role ="Front-End Developer"
       place = "Villupuram"
       skills = {["UI/UX", "HTML", "CSS", "Javascript", "React", "Node"]}
       online = {false}
       profile = "images/prof.jfif"
-      />;
+      />; */}
 
     </div>
   )
