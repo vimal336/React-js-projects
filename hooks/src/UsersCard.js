@@ -13,7 +13,7 @@ const userData = [
     role : 'Front-end Developer',
     skills : ["UI/UX","Front-end Development", "HTML", "CSS", "Javascript"],
     online : "false",
-    profile: "images/jonas.jpg"
+    profile: "images/jonas.jpeg"
   },
   {
     name : 'Vimal S',
