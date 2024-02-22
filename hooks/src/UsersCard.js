@@ -21,7 +21,7 @@ const userData = [
     role : 'Front-end Developer',
     skills : ["UI/UX","Front-end Development", "HTML", "CSS"],
     online : "false",
-    profile: "images/prof.jfif"
+    profile: "images/avatar.jpg"
   },
 ]
 
