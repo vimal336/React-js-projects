@@ -9,11 +9,11 @@ body {
 }
 
 #root{
-  /* display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  flex-wrap: nowrap; */
+  flex-wrap: nowrap;
   min-height: 100vh;
   margin: 0;
 }
