@@ -53,6 +53,7 @@ p{
 
 .pro{
   color:#231e39;
+  border-radius: 3px;
   background-color: red;
   font-size: 14px;
   font-weight: bold;
