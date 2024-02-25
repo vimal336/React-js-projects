@@ -7,22 +7,22 @@ const userData = [
     online : "false",
     profile: "images/prof.jfif"
   },
-  {
-    name : 'Vimal S',
-    city : "Villupuram",
-    role : 'Front-end Developer',
-    skills : ["UI/UX","Front-end Development", "HTML", "CSS", "Javascript"],
-    online : "false",
-    profile: "images/jonas.jpeg"
-  },
-  {
-    name : 'Vimal S',
-    city : "Villupuram",
-    role : 'Front-end Developer',
-    skills : ["UI/UX","Front-end Development", "HTML", "CSS", "javascript"],
-    online : "false",
-    profile: "images/avatar.jpg"
-  },
+  // {
+  //   name : 'Vimal S',
+  //   city : "Villupuram",
+  //   role : 'Front-end Developer',
+  //   skills : ["UI/UX","Front-end Development", "HTML", "CSS", "Javascript"],
+  //   online : "false",
+  //   profile: "images/jonas.jpeg"
+  // },
+  // {
+  //   name : 'Vimal S',
+  //   city : "Villupuram",
+  //   role : 'Front-end Developer',
+  //   skills : ["UI/UX","Front-end Development", "HTML", "CSS", "javascript"],
+  //   online : "false",
+  //   profile: "images/avatar.jpg"
+  // },
 ]
 
 
