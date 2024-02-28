@@ -75,6 +75,8 @@ User.propTypes = {
   role: propTypes.string.isRequired,
   skills: propTypes.array.isRequired,
   online: propTypes.bool.isRequired,
+  profile: propTypes.string.isRequired,
+  
   
   
 }
