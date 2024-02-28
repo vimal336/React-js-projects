@@ -67,7 +67,9 @@ export const UsersCard = () => {
   );
 };
 
-User
+User.prototype = {
+  
+}
 
    
       /* <User 
