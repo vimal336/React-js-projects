@@ -1,3 +1,5 @@
+import propTypes from "prop-types";
+
 const userData = [
   {
     name : 'Vimal S',
@@ -68,7 +70,7 @@ export const UsersCard = () => {
 };
 
 User.propTypes = {
-  name: propTypes.string.isRequired
+  name: propTypes.string.isRequired,
 }
 
    
