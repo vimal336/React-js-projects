@@ -73,7 +73,7 @@ User.propTypes = {
   name: propTypes.string.isRequired,
   city: propTypes.string.isRequired,
   role: propTypes.string.isRequired,
-  skills: propTypes.arrayOf.isRequired,
+  skills: propTypes.arrayOf(propTypes.string).isRequired,
   online: propTypes.bool.isRequired,
   profile: propTypes.string.isRequired,
 }
