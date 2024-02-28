@@ -67,8 +67,8 @@ export const UsersCard = () => {
   );
 };
 
-User.prototype = {
-  name: ProTypes.string
+User.proptypes = {
+  name: propTypes.string
 }
 
    
