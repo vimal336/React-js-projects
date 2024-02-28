@@ -68,7 +68,7 @@ export const UsersCard = () => {
 };
 
 User.prototype = {
-  
+  name: ProTypes.string
 }
 
    
