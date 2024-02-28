@@ -67,7 +67,7 @@ export const UsersCard = () => {
   );
 };
 
-User.proptypes = {
+User.propTypes = {
   name: propTypes.string.isRequired
 }
 
