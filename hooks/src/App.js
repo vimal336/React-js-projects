@@ -2,6 +2,8 @@ import React from "react";
 import UseLayoutEff from "./UseLayoutEff";
 import Useredu from "./useReduce";
 import { UsersCard } from "./UsersCard";
+import Quotes from "./Quotes";
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
      {/* <UseLayoutEff/>
      <Useredu/> */}
      <UsersCard/>
+     <Quotes/>
     </main>
   );
 }
