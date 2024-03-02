@@ -6,7 +6,7 @@ const Quotes = () => {
   const [Advice, setAdvice] = useState("Get Quote");
 
   async function getAdvice() {
-    const res = await fetch();
+    const res = await fetch("https://api.adviceslip.com/advice");
     const data = await res.json();
     getAdvice(data.slip.advice)
   }
