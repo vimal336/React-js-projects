@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import advice from "../src/css/advice.css"
+import "./css/advice.css";
 
 const Quotes = () => {
   const [Advice, setAdvice] = useState("Get Quote");
