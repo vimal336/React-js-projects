@@ -12,7 +12,7 @@ const Quotes = () => {
   }
 
   return (
-    <div>
+    <div className="advice">
       <button onClick={getAdvice}>{Advice}</button>
     </div>
   );
