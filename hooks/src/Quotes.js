@@ -8,7 +8,7 @@ const Quotes = () => {
   async function getAdvice() {
     const res = await fetch();
     const data = await res.json();
-    console.log(data);
+    getAdvice(data.slip.advice)
   }
 
   return (
