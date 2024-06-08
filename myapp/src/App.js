@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header name={data.name} age={data.name} job={data.job} />
-      <Component />
+      <Component/>
     </>
   );
 }
