@@ -4,7 +4,7 @@ export const Header = (props) => {
   return (
     <div>
         <h1 style={{backgroundColor:'red'}}>{props.name}</h1>
-        <h1>{props.age}</h1>
+        <h1>{props.age},{props.job}</h1>
     </div>
   )
 }
