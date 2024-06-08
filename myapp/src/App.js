@@ -4,6 +4,12 @@ import { Component } from "react";
 
 
 function App() {
+
+    const data = [
+        
+    ]
+
+
     return(
         <>
 <Header header = "header" value = "hello"/>
