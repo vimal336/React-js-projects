@@ -5,9 +5,11 @@ import { Component } from "react";
 
 function App() {
 
-    const data = [
-        
-    ]
+    const data = {
+        name:"rock",
+        age:20,
+        job:"teacher",
+    }
 
 
     return(
