@@ -10,8 +10,7 @@ function App() {
 
   return (
     <>
-      <Header name= value="hello" />
-      <Header value="value" />
+      <Header name={data.name} age={data.name} job={data.job} />
       <Component />
     </>
   );
