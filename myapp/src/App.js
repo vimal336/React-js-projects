@@ -3,7 +3,7 @@ import { Header } from "./components/Header";
 function App() {
 
   const data = {
-    name: "rock",
+    name: "rocky bhai",
     age: 20,
     job: "teacher",
   };
