@@ -29,6 +29,7 @@ export const Useeffecthook = () =>{
     const [effect, Seteffect] =  useState(100);
     useEffect(()=>{
       Seteffect(200);
+      console.log("use effect")
     },[])
     return(
         <>
