@@ -15,7 +15,7 @@ export const Header = (props) => {
 
   return (
     <div>
-          {/* <h1>{increment}</h1> */}
+          <h1>{increment}</h1>
          <button onClick={handleincrement}> + </button>
          <button onClick={handledecrement}> - </button>
         <h1 style={{backgroundColor:'grey'}}>{props.name}</h1>
