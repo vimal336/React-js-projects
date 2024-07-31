@@ -19,7 +19,7 @@ export const Header = (props) => {
          <button onClick={handleincrement}> + </button>
          <button onClick={handledecrement}> - </button>
         <h1 style={{backgroundColor:'green'}}>{props.name}</h1>
-        <h1>Age:{props.age}Profession:{props}</h1>
+        <h1>Age:{props.age}Profession:{props.job}</h1>
     </div>
   )
 }
