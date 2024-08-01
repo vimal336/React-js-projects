@@ -6,7 +6,7 @@ const transactionReducer = (state,action) => {
        case 'WITHDRAW':
             return state - action.payload
        case  'DEPOSIT' :
-            return state - action.payload
+            return state + action.payload
        default:
             return state
     }
