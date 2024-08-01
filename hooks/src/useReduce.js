@@ -2,34 +2,27 @@ import { useReducer } from "react";
 
 import React from "react";
 
-const transactionReducer = (state,action) => {
-   switch (action.type){
-    case 'WITHDRAW':
-        return state - action.payload
-    case 'DEPOSIT':
-            return state - action.payload
-    default :
-    return state
-   }
+const initialState = { count: 0 };
+
+function Counter(state, action) {
+  switch (action.type) {
+    case 'increment':
+      return { count: state.count + 1 };
+    case 'decrement':
+      return { count: state.count - 1 };
+    default:
+      throw new Error();
+  }
 }
 
-export default function useReduce(){
+export const  UseReduce = () => {
+  const [state, dispatch] = useReducer(Counter, initialState);
 
-    const withdraw = (amount) => {
-        dispatch({type:"WITHDRAW",payload:amount})
-    }
-
-    const deposit = (amount) => {
-        dispatch({type:"DEPOSIT",payload:amount})
-    }
-
-    const [state, dispatch] = useReducer(transactionReducer, 1000)
-    return(
-        <>
-       <h3>{`Balance is${state}`}</h3>
-       <button onClick={()=>withdraw(500)}>Withdraw</button>
-
-       <button onClick={()=>deposit(500)}>Deposit</button>
-        </>
-    )
+  return (
+    <div>
+      <p>UseReducer Count: {state.count}</p>
+      <button onClick={() => dispatch({ type: 'increment' })}>+</button>
+      <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
+    </div>
+  );
 }
