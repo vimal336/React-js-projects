@@ -6,6 +6,9 @@ import { useReducer } from "react";
 const initialState = [];
 
  const reducer = (state,action) =>{
+    switch(){
+        
+    }
 
  }
 
