@@ -2,10 +2,7 @@ import React from "react";
 import { useReducer } from "react";
 
 const initialState = [
-  {
-    id:1,
-    name:"Learning React"
-  }
+ 
 ];
 
 const reducer = (state, action) => {
@@ -20,10 +17,15 @@ const reducer = (state, action) => {
 export const Todos = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
+  const handleChange = (e) =>{
+    console.log(e.target.value)
+  }
+
   return (
     <>
       <h4>Todo App using UseReducer</h4>
        <h4>Task List {state.length}</h4>
+       <input type="text" id="task" onClick={handleChange} />
     </>
   );
 };
