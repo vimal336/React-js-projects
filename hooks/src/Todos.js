@@ -1,7 +1,17 @@
 import React from "react";
 import { useReducer } from "react";
 
-export const Todos = (state,action) => {
+
+
+const initialState = [];
+
+ const reducer = () =>{
+
+ }
+
+export const Todos = () => {
+    
+    const [state, dispatch] = useReducer(reducer, initialState)
     
     return(
         <>
