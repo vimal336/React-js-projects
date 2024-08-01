@@ -5,7 +5,7 @@ import { useReducer } from "react";
 
 const initialState = [];
 
- const reducer = () =>{
+ const reducer = (state,action) =>{
 
  }
 
