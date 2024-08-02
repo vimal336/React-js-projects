@@ -1,13 +1,15 @@
-import axios from "axios";
+import BaseUrl from "./BaseUrl"
 import React from "react";
 
 export const Axios = () =>{
 
      async function apicall(){
-       const response = await axios.get(
-         "posts/1"
-       );
-       console.log(response.data);
+      try {
+         const response = await BaseUrl.get("posts/1");
+         console.log(response.data);
+       } catch (error) {
+         console.error("Error fetching data:", error);
+       }
      }
 
      return (
