@@ -5,6 +5,7 @@ import { UsersCard } from "./UsersCard";
 import Quotes from "./Quotes";
 import { Useeffecthook } from "./Useeffecthook";
 import { Todos } from "./Todos";
+import { Axios } from "./Axios";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
      <UseReduce/> 
      <Useeffecthook/>
      <Todos/>
+     <Axios/>
      {/* <UsersCard/>
      <Quotes/> */}
     </main>
