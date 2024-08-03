@@ -7,6 +7,7 @@ import { Useeffecthook } from "./Useeffecthook";
 import { Todos } from "./Todos";
 import { Axios } from "./Axios";
 import { User } from "./use_context_hook/User";
+import { UseMemoHook } from "./UseMemoHook";
 
 export const ThemeContext = createContext();
 
@@ -32,6 +33,8 @@ function App() {
      <button onClick={toggleTheme}>Change Theme</button>
      <h1>{theme}</h1>
      </ThemeContext.Provider>
+
+     <UseMemoHook/>
 
      {/* <UsersCard/>
      <Quotes/> */}
