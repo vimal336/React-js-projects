@@ -1,8 +1,8 @@
 import React, { createContext, useState } from "react";
 import UseLayoutEff from "./UseLayoutEff";
 import { UseReduce } from "./useReduce";
-import { UsersCard } from "./UsersCard";
-import Quotes from "./Quotes";
+// import { UsersCard } from "./UsersCard";
+// import Quotes from "./Quotes";
 import { Useeffecthook } from "./Useeffecthook";
 import { Todos } from "./Todos";
 import { Axios } from "./Axios";
@@ -32,7 +32,7 @@ function App() {
      <button onClick={toggleTheme}>Change Theme</button>
      <h1>{theme}</h1>
      </ThemeContext.Provider>
-     
+
      {/* <UsersCard/>
      <Quotes/> */}
     </main>
