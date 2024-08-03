@@ -8,7 +8,7 @@ import { Todos } from "./Todos";
 import { Axios } from "./Axios";
 import { User } from "./use_context_hook/User";
 
-const ThemeContext = createContext();
+export const ThemeContext = createContext();
 
 
 function App() {
@@ -26,11 +26,13 @@ function App() {
      <Useeffecthook/>
      <Todos/>
      <Axios/>
-     <ThemeContext.Provider value={theme}>
-     <User theme ={theme}/>
+
+     <ThemeContext.Provider value={{theme,}}>
+     <User/>
      <button onClick={toggleTheme}>Change Theme</button>
      <h1>{theme}</h1>
      </ThemeContext.Provider>
+     
      {/* <UsersCard/>
      <Quotes/> */}
     </main>
