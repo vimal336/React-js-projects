@@ -5,12 +5,12 @@ export const UseMemoHook = () => {
   const [dark, SetDark] = useState(false);
 
   const doubleNumber = useMemo(()=>{
-
-  },[])
+    return slowFunction(number)
+  },[number])
 
   const themeStyle = {
     backgroundColor: dark ?"white":"black",
-    color: dark ?"black":"white"
+    color: dark ?"black":"blue"
 }
 
   return (

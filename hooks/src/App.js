@@ -11,7 +11,6 @@ import { UseMemoHook } from "./UseMemoHook";
 
 export const ThemeContext = createContext();
 
-
 function App() {
   const [theme, setTheme] = useState("Light");
 
