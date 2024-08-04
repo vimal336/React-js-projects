@@ -10,7 +10,7 @@ export const UseMemoHook = () => {
 
   const themeStyle = {
     backgroundColor: dark ?"white":"black",
-    color: dark ?"black":"blue"
+    color: dark ?"black":"white"
 }
 
   return (
