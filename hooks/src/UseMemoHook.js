@@ -9,7 +9,7 @@ export const UseMemoHook = () => {
   },[number])
 
   const themeStyle = {
-    backgroundColor: dark ?"red":"black",
+    backgroundColor: dark ?"white":"black",
     color: dark ?"black":"white"
 }
 
