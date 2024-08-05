@@ -2,8 +2,8 @@ import React, { createContext, useState } from "react";
 import UseLayoutEff from "./UseLayoutEff";
 import { UseReduce } from "./useReduce";
 import { BrowserRouter , Routes, Route } from "react-router-dom";
-// import { UsersCard } from "./UsersCard";
-// import Quotes from "./Quotes";
+import { UsersCard } from "./UsersCard";
+import Quotes from "./Quotes";
 import { Useeffecthook } from "./Useeffecthook";
 import { Todos } from "./Todos";
 import { Axios } from "./Axios";
@@ -22,29 +22,28 @@ function App() {
 
   return (
     <main>
-     <h1>hooks</h1> 
-     <Navbar/>
      <BrowserRouter>
+     <Navbar/>
      <Routes>
       <Route path="Axios" element={<Axios/>}></Route>
+      <Route path="UseReduce" element={<UseReduce/>}></Route>
+      <Route path="Axios" element={<Axios/>}></Route>
+      <Route path="UseLayoutEff" element={<UseLayoutEff/>}></Route>
+      <Route path="Todos" element={<Todos/>}></Route>
+      <Route path="UseMemoHook" element={<UseMemoHook/>}></Route>
+      <Route path="Quotes" element={<Quotes/>}></Route>
+      <Route path="UsersCard" element={<UsersCard/>}></Route>
      </Routes>
      </BrowserRouter>
-     <UseLayoutEff/>
-     <UseReduce/> 
-     <Useeffecthook/>
-     <Todos/>
-     <Axios/> 
 
-     <ThemeContext.Provider value={{theme,}}>
+
+     {/* <ThemeContext.Provider value={{theme,}}>
      <User/>
      <button onClick={toggleTheme}>Change Theme</button>
      <h1>{theme}</h1>
-     </ThemeContext.Provider>
+     </ThemeContext.Provider> */}
 
-     <UseMemoHook/>
 
-     {/* <UsersCard/>
-     <Quotes/> */}
     </main>
   );
 }
