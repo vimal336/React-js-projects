@@ -10,6 +10,8 @@ import { Axios } from "./Axios";
 import { User } from "./use_context_hook/User";
 import { UseMemoHook } from "./UseMemoHook";
 import Navbar from "./NavBar";
+import { ErrorNotFound } from "./ErrorNotFound";
+import { UserefHook } from "./UserefHook";
 
 export const ThemeContext = createContext();
 
@@ -25,14 +27,18 @@ function App() {
      <BrowserRouter>
      <Navbar/>
      <Routes>
+     <Route path="/" element={<Axios/>}></Route>
       <Route path="Axios" element={<Axios/>}></Route>
       <Route path="UseReduce" element={<UseReduce/>}></Route>
       <Route path="Axios" element={<Axios/>}></Route>
+      <Route path="UseeffectHook" element={<Useeffecthook/>}></Route>
       <Route path="UseLayoutEff" element={<UseLayoutEff/>}></Route>
       <Route path="Todos" element={<Todos/>}></Route>
       <Route path="UseMemoHook" element={<UseMemoHook/>}></Route>
       <Route path="Quotes/:username" element={<Quotes/>}></Route>
       <Route path="UsersCard" element={<UsersCard/>}></Route>
+      <Route path="UseRefHook" element={<UserefHook/>}></Route>
+      <Route path="*" element={<ErrorNotFound/>}></Route>
      </Routes>
      </BrowserRouter>
 
