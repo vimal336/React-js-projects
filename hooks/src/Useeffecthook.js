@@ -4,7 +4,7 @@ export const Useeffecthook  = () =>{
 
   return(
  <>
-  <h1>Useffect</h1>
+  <h1>Useffect Hook</h1>
  </>
   )
 }
