@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./css/advice.css";
+import { useParams } from "react-router-dom";
 
 const Quotes = () => {
   const [Advice, setAdvice] = useState("Get Quote");
@@ -11,9 +12,13 @@ const Quotes = () => {
     setAdvice(data.slip.advice)
   }
 
+  const {username} = useParams();
+
   return (
+   
     <div className="advice">
       <button onClick={getAdvice}>{Advice}</button>
+      <h3>{username}</h3>
     </div>
   );
 };

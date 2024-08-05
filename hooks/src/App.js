@@ -31,8 +31,8 @@ function App() {
       <Route path="UseLayoutEff" element={<UseLayoutEff/>}></Route>
       <Route path="Todos" element={<Todos/>}></Route>
       <Route path="UseMemoHook" element={<UseMemoHook/>}></Route>
-      <Route path="Quotes" element={<Quotes/>}></Route>
-      <Route path="UsersCard/:username" element={<UsersCard/>}></Route>
+      <Route path="Quotes/:username" element={<Quotes/>}></Route>
+      <Route path="UsersCard" element={<UsersCard/>}></Route>
      </Routes>
      </BrowserRouter>
 
