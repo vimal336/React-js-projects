@@ -1,6 +1,7 @@
 import React, { createContext, useState } from "react";
 import UseLayoutEff from "./UseLayoutEff";
 import { UseReduce } from "./useReduce";
+import { BrowserRouter , Routes, Route } from "react-router-dom";
 // import { UsersCard } from "./UsersCard";
 // import Quotes from "./Quotes";
 import { Useeffecthook } from "./Useeffecthook";
@@ -8,6 +9,7 @@ import { Todos } from "./Todos";
 import { Axios } from "./Axios";
 import { User } from "./use_context_hook/User";
 import { UseMemoHook } from "./UseMemoHook";
+import Navbar from "./NavBar";
 
 export const ThemeContext = createContext();
 
@@ -21,11 +23,17 @@ function App() {
   return (
     <main>
      <h1>hooks</h1> 
+     <Navbar/>
+     <BrowserRouter>
+     <Routes>
+      <Route path="Axios" element={<Axios/>}></Route>
+     </Routes>
+     </BrowserRouter>
      <UseLayoutEff/>
      <UseReduce/> 
      <Useeffecthook/>
      <Todos/>
-     <Axios/>
+     <Axios/> 
 
      <ThemeContext.Provider value={{theme,}}>
      <User/>
