@@ -1,4 +1,5 @@
 import propTypes from "prop-types";
+import { useParams } from "react-router-dom";
 
 const userData = [
   {
@@ -29,12 +30,15 @@ const userData = [
 
 
 function User(props){
+    
+  const {username} = useParams();
+
    return (
    
    <div className="card-container">
     <span className={props.online ? "pro online" : "pro offline"}>  {props.online?"ONLINE" : "OFFLINE"}</span>
     <img src={props.profile} className="img" alt="man" />
-    <h3>{props.name}</h3>
+    <h3>{username}</h3>
     <h3>{props.place}</h3>
     <p>{props.role}</p>
     <div className ="buttons">
@@ -57,7 +61,7 @@ export const UsersCard = () => {
   <>
   {userData.map((user, index)=>(
        <User key={index} 
-       name={user.value}
+       name={user.name}
        city={user.city}
        role={user.role}
        skills={user.skills}
