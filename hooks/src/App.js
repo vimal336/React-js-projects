@@ -12,6 +12,8 @@ import { UseMemoHook } from "./UseMemoHook";
 import Navbar from "./NavBar";
 import { ErrorNotFound } from "./ErrorNotFound";
 import { UserefHook } from "./UserefHook";
+import { UseStateHook } from "./UseStateHook";
+import { UseCallBack } from "./UseCallBack";
 
 export const ThemeContext = createContext();
 
@@ -31,6 +33,7 @@ function App() {
       <Route path="Axios" element={<Axios/>}></Route>
       <Route path="UseReduce" element={<UseReduce/>}></Route>
       <Route path="Axios" element={<Axios/>}></Route>
+      <Route path="UseStateHook" element={<UseStateHook/>}></Route>
       <Route path="UseeffectHook" element={<Useeffecthook/>}></Route>
       <Route path="UseLayoutEff" element={<UseLayoutEff/>}></Route>
       <Route path="Todos" element={<Todos/>}></Route>
@@ -38,12 +41,13 @@ function App() {
       <Route path="Quotes/:username" element={<Quotes/>}></Route>
       <Route path="UsersCard" element={<UsersCard/>}></Route>
       <Route path="UseRefHook" element={<UserefHook/>}></Route>
+      <Route path="UseCallBack" element={<UseCallBack/>}></Route>
       <Route path="*" element={<ErrorNotFound/>}></Route>
      </Routes>
      </BrowserRouter>
 
-
-     {/* <ThemeContext.Provider value={{theme,}}>
+{/* 
+     <ThemeContext.Provider value={{theme,}}>
      <User/>
      <button onClick={toggleTheme}>Change Theme</button>
      <h1>{theme}</h1>

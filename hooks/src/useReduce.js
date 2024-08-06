@@ -19,10 +19,12 @@ export const  UseReduce = () => {
   const [state, dispatch] = useReducer(Counter, initialState);
 
   return (
-    <div>
-      <p>UseReducer Count: {state.count}</p>
+    <div className="use-reduce-container" >
+      <p className="use-reduce-count" >UseReducer Count: {state.count}</p>
+      <div className="use-reduce-buttons">
       <button onClick={() => dispatch({ type: 'increment' })}>+</button>
       <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
+      </div>
     </div>
   );
 }
