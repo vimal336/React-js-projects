@@ -1,12 +1,16 @@
 import { useSelector } from "react-redux";
+import { deleteCustomer } from "./slices/CustomerSlice";
+import { useDispatch } from "react-redux";
 
 const CustomerView = () => {
   const customer = useSelector((state) => state.customer);
   console.log(customer)
+  const dispatch = useDispatch()
 
-  function deleteHandler(){
-
+  function deleteHandler(index){
+   dispatch(deleteCustomer(index))
   }
+
   return (
     <div>
       <p>Customer List</p>

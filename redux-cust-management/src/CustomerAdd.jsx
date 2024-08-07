@@ -13,6 +13,7 @@ const CustomerAdd = () => {
        dispatch(addCustomerAction(input))
        setInput("");
     }
+    
   }
 
   return (
