@@ -5,14 +5,14 @@ const CustomerView = () => {
   console.log(customer)
 
   function deleteHandler(){
-    
+
   }
   return (
     <div>
       <p>Customer List</p>
       <ul style={{ listStyle: "none" }}>
         {customer.map((cust,index) => (
-          <li key={index}>{cust} <button onClick={()=> deleteHandler(index)}>Delete</button></li>
+          <li key={index}>{cust} <button className="customer-delete" onClick={()=> deleteHandler(index)}>Delete</button></li>
         ))}
       </ul>
     </div>
