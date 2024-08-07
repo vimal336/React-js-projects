@@ -17,10 +17,10 @@ const CustomerAdd = () => {
   }
 
   return (
-    <div className="customer-add">
-        <p>CustomerAdd</p>
+    <div className='customer' >
+        <h4>ADD CUSTOMER</h4>
         <input type='text' value={input} onChange={(e)=> setInput(e.target.value)}/>
-        <button onClick={addCustomer}>Add</button>
+        <button className="customer-add" onClick={addCustomer} >ADD</button>
     </div>
   )
 }
