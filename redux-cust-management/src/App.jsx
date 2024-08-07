@@ -9,7 +9,7 @@ function App() {
   return (
     <Provider store={store} >
     <>
-      <h1>Redux Customer Management</h1>
+      <h1>Customer Management Using React Redux </h1>
       <CustomerAdd />
       <CustomerView/>
     </>
