@@ -1,4 +1,7 @@
+import { useSelector } from "react-redux"
+
 const CustomerView = () => {
+  const customer = useSelector((state)=> state.customer)
   return (
     <div>
         <p>Customer List</p>
@@ -11,9 +14,6 @@ const CustomerView = () => {
             })
             
             }
-            <li>
-                
-            </li>
         </ul>
     </div>
   )
