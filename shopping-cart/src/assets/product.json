@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "amount": 1500,
+      "shop": "Tech Store",
+      "producttype": "laptop",
+      "picture": "https://purepng.com/public/uploads/large/purepng.com-laptopelectronicslaptopcomputer-9415246764507pgyc.png",
+      "latest": "yes"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "amount": 500,
+      "shop": "Gadget World",
+      "producttype": "smartphone",
+      "picture": "https://purepng.com/public/uploads/large/purepng.com-samsung-phonesmartphoneandroidgooglephoneapplication-211519339028ghq1u.png",
+      "latest": "no"
+    },
+    {
+      "id": 3,
+      "name": "Emily Johnson",
+      "amount": 1200,
+      "shop": "Office Supplies",
+      "producttype": "printer",
+      "picture": "https://pluspng.com/img-png/printer-png-printer-png-image-3348.png",
+      "latest": "yes"
+    },
+    {
+      "id": 4,
+      "name": "Michael Brown",
+      "amount": 200,
+      "shop": "Camera Shop",
+      "producttype": "camera",
+      "picture": "https://purepng.com/public/uploads/large/purepng.com-digital-photo-cameracameraphotodigital-cameravideophoto-machinephoto-maker-231519335289d1map.png",
+      "latest": "no"
+    },
+    {
+      "id": 5,
+      "name": "Sarah Davis",
+      "amount": 750,
+      "shop": "Tech Store",
+      "producttype": "tablet",
+      "picture": "https://pngimg.com/uploads/tablet/tablet_PNG8567.png",
+      "latest": "yes"
+    },
+    {
+      "id": 6,
+      "name": "David Wilson",
+      "amount": 300,
+      "shop": "Gadget World",
+      "producttype": "headphones",
+      "picture": "https://pngimg.com/uploads/headphones/headphones_PNG7638.png",
+      "latest": "no"
+    },
+    {
+      "id": 7,
+      "name": "Chris Martin",
+      "amount": 600,
+      "shop": "Camera Shop",
+      "producttype": "drone",
+      "picture": "https://www.pngmart.com/files/6/Drone-PNG-Transparent-Image.png",
+      "latest": "yes"
+    },
+    {
+      "id": 8,
+      "name": "Jessica Garcia",
+      "amount": 950,
+      "shop": "Office Supplies",
+      "producttype": "monitor",
+      "picture": "https://purepng.com/public/uploads/large/purepng.com-monitormonitorscomputer-displayvisual-displayelectronicdisplay-devicecrystal-displaylcdledamoled-1701528362341lk8i2.png",
+      "latest": "no"
+    },
+    {
+      "id": 9,
+      "name": "Andrew Moore",
+      "amount": 1100,
+      "shop": "Tech Store",
+      "producttype": "desktop",
+      "picture": "https://www.pngmart.com/files/7/Desktop-Computer-PNG-Free-Download.png",
+      "latest": "yes"
+    },
+    {
+      "id": 10,
+      "name": "Laura Thompson",
+      "amount": 400,
+      "shop": "Gadget World",
+      "producttype": "smartwatch",
+      "picture": "https://www.pngmart.com/files/13/Smartwatch-PNG-Image.png",
+      "latest": "no"
+    }
+  ]
+  
