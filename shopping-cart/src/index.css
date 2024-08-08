@@ -48,6 +48,7 @@ display: inline-flex;
 }
 
 .product-container{
+    display: block;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
