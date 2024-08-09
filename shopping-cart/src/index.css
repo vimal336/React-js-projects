@@ -55,3 +55,14 @@ display: inline-flex;
     align-items: center;
 }
 
+.details{
+    padding: 5px;
+}
+
+.details button{
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+}
