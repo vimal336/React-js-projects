@@ -28,6 +28,7 @@ export const Cart = () => {
       <p>Price Rs: 45.00</p>
     </div>
     </div>
+    <h1>Total Amount Rs:135</h1>
     </div>
   )
 }
