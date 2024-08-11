@@ -5,6 +5,10 @@ export const Cart = () => {
        <div className="img">
       <img src="" alt="image" />
     </div>
+    <div className="cart-product-details">
+      <h3>Product Name</h3>
+      <p>Price Rs:</p>
+    </div>
     </div>
     </div>
   )
