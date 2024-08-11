@@ -31,7 +31,7 @@ export const Cart = () => {
     </div>
     </div>
     </div>
-        <h1>Total Amount Rs:135</h1>
+        <h2>Total Amount Rs:135</h2>
         </>
   )
 }
