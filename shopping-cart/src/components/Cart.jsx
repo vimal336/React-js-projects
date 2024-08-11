@@ -7,7 +7,7 @@ export const Cart = () => {
     </div>
     <div className="cart-product-details">
       <h3>Product Name</h3>
-      <p>Price Rs:</p>
+      <p>Price Rs: 45.00</p>
     </div>
     </div>
     </div>
