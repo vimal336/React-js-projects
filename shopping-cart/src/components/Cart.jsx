@@ -1,5 +1,6 @@
 export const Cart = () => {
   return (
+    <h1>Cart Products</h1>
     <div className="cart-container">
     <div className="cart-product">
        <div className="img">
