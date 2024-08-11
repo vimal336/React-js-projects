@@ -1,5 +1,6 @@
 export const Cart = () => {
   return (
+    <>
     <h1>Cart Products</h1>
     <div className="cart-container">
     <div className="cart-product">
@@ -29,7 +30,8 @@ export const Cart = () => {
       <p>Price Rs: 45.00</p>
     </div>
     </div>
-    <h1>Total Amount Rs:135</h1>
     </div>
+        <h1>Total Amount Rs:135</h1>
+        </>
   )
 }
