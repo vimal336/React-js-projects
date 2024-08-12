@@ -6,7 +6,7 @@ const Home = () => {
   const [products] = useState(data);
   return (
     <div className="product-container">
-      {products.map(()=>(
+      {products.map((product)=>(
         <Product key={product.id} product = {product}/>
       ))}
     </div>
