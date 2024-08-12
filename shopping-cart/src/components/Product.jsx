@@ -10,7 +10,6 @@ const Product = ({product}) => {
         <p>Price Rs:{product.amount}</p>
         <button className="cart-amt">Add to Cart</button>
         </div>
-      
     </div>
   )
 };
