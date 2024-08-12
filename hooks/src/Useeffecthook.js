@@ -22,7 +22,7 @@ export const Useeffecthook  = () =>{
 
   useEffect(()=>{
   console.log("State Dependency Array")
-  },[even]);
+  },[time]);
 
   const addeven = () => {
     setEven((ev)=>(ev)+2)
@@ -40,7 +40,7 @@ export const Useeffecthook  = () =>{
  <>
   <h1>Useffect Hook</h1>
   <p>{even}</p>
-  <p>{time}</p>
+  <p>Clicked {time} Times</p>
   <button onClick={addodd}>Odd</button>
   <button onClick={addeven}>Even</button>
   <button onClick={addtime}>T</button>
