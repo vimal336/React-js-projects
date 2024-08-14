@@ -7,7 +7,7 @@ export const UserefHook = () => {
   const inputref = useRef()
 
   const  display = () =>{
-    console.log(inputref.current?.value)
+    console.log(inputref.current.value)
   }
 
   return (
@@ -17,6 +17,8 @@ export const UserefHook = () => {
         //onChange={(event)=>setInput(event.target.value)} 
         //value={input}
         />
+        <p> My name is {inputref.current.value}
+        </p>
        <button onClick={display}>Display Input</button>
     </div>
   )
