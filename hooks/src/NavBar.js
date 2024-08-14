@@ -17,6 +17,7 @@ const Navbar = () => {
         <li className="navbar-item"><Link to="Axios">Axios</Link></li>
         <li className="navbar-item"><Link to="UsersCard">UsersCard</Link></li>
         <li className="navbar-item"><Link to="Quotes">Quotes</Link></li>
+        <li className="navbar-item"><Link to="TaskManger">Crud</Link></li>
       </ul>
     </nav>
   )

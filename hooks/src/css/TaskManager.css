@@ -1,0 +1,99 @@
+.Task-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Input field for adding and editing tasks */
+  input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* List of tasks */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Individual task item */
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  /* Styling for the task text */
+  li span {
+    flex-grow: 1;
+  }
+  
+  /* Buttons within each task item */
+  li button {
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+  
+  li button.edit {
+    background-color: #28a745;
+  }
+  
+  li button.edit:hover {
+    background-color: #218838;
+  }
+  
+  li button.delete {
+    background-color: #dc3545;
+  }
+  
+  li button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    input[type="text"] {
+      width: calc(100% - 80px);
+    }
+  
+    li button {
+      font-size: 12px;
+      padding: 5px 8px;
+    }
+  }
+  

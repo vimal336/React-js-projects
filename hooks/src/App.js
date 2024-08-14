@@ -14,6 +14,7 @@ import { ErrorNotFound } from "./ErrorNotFound";
 import { UserefHook } from "./UserefHook";
 import { UseStateHook } from "./UseStateHook";
 import { UseCallBack } from "./UseCallBack";
+import TaskManager from "./TaskManager";
 
 export const ThemeContext = createContext();
 
@@ -42,6 +43,7 @@ function App() {
       <Route path="UsersCard" element={<UsersCard/>}></Route>
       <Route path="UseRefHook" element={<UserefHook/>}></Route>
       <Route path="UseCallBack" element={<UseCallBack/>}></Route>
+      <Route path="TaskManager" element={<TaskManager/>}></Route>
       <Route path="*" element={<ErrorNotFound/>}></Route>
      </Routes>
      </BrowserRouter>
