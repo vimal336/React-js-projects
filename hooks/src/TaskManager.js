@@ -49,7 +49,7 @@ export default function TaskManager() {
 
   return (
     <div className="Task-container">
-      <h1>Task Manager</h1>
+      <h1 className="task-header">Task Manager</h1>
 
       {/* Input for adding a new task */}
       <input
@@ -60,9 +60,9 @@ export default function TaskManager() {
       />
       <button onClick={addTask}>Add Task</button>
 
-      <ul>
+      <ul className="task-ul">
         {tasks.map((task) => (
-          <li key={task.id}>
+          <li className="task-li" key={task.id}>
             {/* Display or edit the task */}
             {editTaskId === task.id ? (
               <input

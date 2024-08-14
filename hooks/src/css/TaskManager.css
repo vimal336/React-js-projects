@@ -9,7 +9,7 @@
   }
   
   /* Header styling */
-  h1 {
+  .task-header {
     text-align: center;
     color: #333;
   }
@@ -40,14 +40,14 @@
   }
   
   /* List of tasks */
-  ul {
+  .task-ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
   
   /* Individual task item */
-  li {
+  .task-li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,30 +58,30 @@
   }
   
   /* Styling for the task text */
-  li span {
+  .task-li span {
     flex-grow: 1;
   }
   
   /* Buttons within each task item */
-  li button {
+  .task-li button {
     margin-left: 10px;
     font-size: 14px;
     padding: 6px 10px;
   }
   
-  li button.edit {
+  .task-li button.edit {
     background-color: #28a745;
   }
   
-  li button.edit:hover {
+  .task-li button.edit:hover {
     background-color: #218838;
   }
   
-  li button.delete {
+  .task-li button.delete {
     background-color: #dc3545;
   }
   
-  li button.delete:hover {
+  .task-li button.delete:hover {
     background-color: #c82333;
   }
   
@@ -91,7 +91,7 @@
       width: calc(100% - 80px);
     }
   
-    li button {
+    .task-li button {
       font-size: 12px;
       padding: 5px 8px;
     }
