@@ -68,6 +68,7 @@ export default function TaskManager() {
               <input
                 type="text"
                 value={editTaskValue}
+                onChange={handleEditInputChange}
               />
             ) : (
               <span>{task.name}</span>
