@@ -64,7 +64,7 @@ export default function TaskManager() {
         {tasks.map((task) => (
           <li className="task-li" key={task.id}>
             {/* Display or edit the task */}
-            {editTaskId === task.id  (
+            {editTaskId === task.id ? (
               <input
                 type="text"
                 value={editTaskValue}
