@@ -54,7 +54,7 @@ export default function TaskManager() {
       {/* Input for adding a new task */}
       <input
         type="text"
-        value={newTask}
+        value={}
         onChange={handleInputChange}
         placeholder="Enter a new task"
       />
