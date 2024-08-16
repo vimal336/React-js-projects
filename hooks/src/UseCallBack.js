@@ -13,8 +13,13 @@ import React from "react";
 
 import { useReducer } from "react";
 
+
+initialstate = 0
+
 const UseCallBack = () =>{
 
+
+  const [state,dispatch] = useReducer(Counter, initialstate)
   
   
   return(
