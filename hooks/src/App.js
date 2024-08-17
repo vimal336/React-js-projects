@@ -48,12 +48,12 @@ function App() {
      </Routes>
      </BrowserRouter>
 
-{/* 
+
      <ThemeContext.Provider value={{theme,}}>
      <User/>
      <button onClick={toggleTheme}>Change Theme</button>
      <h1>{theme}</h1>
-     </ThemeContext.Provider> */}
+     </ThemeContext.Provider>
 
 
     </main>
