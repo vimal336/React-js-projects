@@ -25,7 +25,7 @@ export const UseReduce = () => {
       <p className="use-reduce-count">UseReducer Count: {state.count}</p>
       <div className="use-reduce-buttons">
         <button onClick={handleDecrement}>-</button>
-        <button onClick={handleDecrement}>-</button>
+        <button onClick={handleIncrement}>+</button>
       </div>
     </div>
   );
