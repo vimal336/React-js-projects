@@ -1,5 +1,4 @@
 import React, { useReducer } from "react";
-import { IncrementButton, DecrementButton } from "./Buttons"; // Adjust the import path if necessary
 
 const initialState = { count: 0 };
 
