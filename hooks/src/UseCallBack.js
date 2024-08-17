@@ -13,6 +13,7 @@ function Counter(state,action){
 }
 
 export const UseCallBack = () => {
+
   const [state,dispatch] = useReducer(Counter,initialState)
   const inc = ()=>{
     dispatch({type:'inc'})
