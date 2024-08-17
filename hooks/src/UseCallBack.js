@@ -9,5 +9,16 @@
 //     </div>
 //   )
 // }
-import React from "react";
+import React, { useReducer } from "react";
 
+const initialState = {Count:0};
+
+const usered = useReducer(Count,initialState)
+
+const UseCallBack = () =>{
+  return(
+    <>
+
+    </>
+  )
+}
