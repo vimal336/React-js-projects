@@ -22,7 +22,7 @@ function App() {
   const [theme, setTheme] = useState("Light");
 
   const toggleTheme = () =>{
-    setTheme((curr)=>(curr === "Light"? "dark" : "Light"));
+    setTheme(curr => curr === "Light"? "dark" : "Light");
   }
 
   return (

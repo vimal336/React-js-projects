@@ -2,11 +2,11 @@ import React, { useRef, useState } from 'react'
 
 export const UserefHook = () => {
 
-  // const [input, setInput] = useState("");
+  const [input, setInput] = useState("");
 
   const inputref = useRef()
 
-  const  display = () =>{
+  const display = () =>{
     console.log(inputref.current.value)
   }
 
@@ -17,9 +17,10 @@ export const UserefHook = () => {
         //onChange={(event)=>setInput(event.target.value)} 
         //value={input}
         />
-        <p> My name is {inputref.current.value}
-        </p>
+        {/* <p> My name is {inputref.current.value} 
+        </p>*/}
        <button onClick={display}>Display Input</button>
     </div>
   )
 }
+
