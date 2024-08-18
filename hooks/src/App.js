@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useContext, useState } from "react";
 import UseLayoutEff from "./UseLayoutEff";
 import { UseReduce } from "./useReduce";
 import { BrowserRouter , Routes, Route } from "react-router-dom";
@@ -15,11 +15,16 @@ import { UserefHook } from "./UserefHook";
 import { UseStateHook } from "./UseStateHook";
 import { UseCallBack } from "./UseCallBack";
 import TaskManager from "./TaskManager";
+import { Onecomp } from "./components/Onecomp";
+import { Twocomp } from "./components/Twocomp";
 
 export const ThemeContext = createContext();
 
+export const mycontext = createContext();
+
 function App() {
   const [theme, setTheme] = useState("Light");
+  const [user, setuser] = useState("vimal");
 
   const toggleTheme = () =>{
     setTheme(curr => curr === "Light"? "dark" : "Light");
@@ -54,6 +59,13 @@ function App() {
      <button onClick={toggleTheme}>Change Theme</button>
      <h1>{theme}</h1>
      </ThemeContext.Provider>
+
+    <mycontext.Provider value={user}>
+       <h1>{`hello ${user}`}</h1>
+       <Onecomp/>
+    </mycontext.Provider>
+
+    
 
 
     </main>
