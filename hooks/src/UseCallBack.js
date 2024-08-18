@@ -1,26 +1,29 @@
-import { type } from '@testing-library/user-event/dist/type'
-import React, { useReducer } from 'react'
-
-function Counter(state,action){
-  switch(action.type){
-    case 'inc':
-    return {count: state.count+1}
-    default :
-    return {count:state}
-  }
-}
+import React, { useMemo, useState } from 'react'
 
 export const UseCallBack = () => {
-  const initialState = {count:0}
-  const [state,dispatch] = useReducer(Counter,initialState)
-  const plus = () => {
-    dispatch({type:'inc'})
-  }
-  return (
    
+  const [number, setNumber] = useState(0);
+  const [dark, setdark] = useState(false);
+
+  const toggle ={
+       backgroundColor: dark? 'black' : 'white',
+       color: dark? 'black' : 'white',
+  }
+
+  const dbnumber = useMemo(()=>{
+    return slow(number);
+  },[number])
+
+  return (
     <div>
-      <h1>{state.count}</h1>
-      <button onClick={plus}>+</button>
+     <input type='text' value={number}/>
+     <button onClick={()=>setdark (curr => !curr)}></button>
+     <h1 style={toggle}>{dbnumber}</h1>
     </div>
   )
+
+  function slow(num){
+    for(let i=0; i<=100000; i++){}
+    return num * 2;
+  }
 }
