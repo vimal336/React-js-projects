@@ -3,7 +3,11 @@ import React, { useMemo, useState } from 'react'
 export const UseCallBack = () => {
   const [number, setNumber] = useState(0);
   const [dark, setDark] = useState(false);
-  const slowfun = slow(number);
+
+
+  //const slowfun = slow(number);
+
+  const 
 
   const toggle={
     backgroundColor: dark ? "black":"white",
