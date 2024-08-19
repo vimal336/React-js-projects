@@ -23,7 +23,7 @@ export const Onecomp = () => {
   }
 
   useEffect(()=>{
-    console.log("rendered")
+    console.log("rendered");
   },[time])
 
 
