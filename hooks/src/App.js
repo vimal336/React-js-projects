@@ -13,10 +13,10 @@ import Navbar from "./NavBar";
 import { ErrorNotFound } from "./ErrorNotFound";
 import { UserefHook } from "./UserefHook";
 import { UseStateHook } from "./UseStateHook";
-import { UseCallBack } from "./UseCallBack";
 import TaskManager from "./TaskManager";
 import { Onecomp } from "./components/Onecomp";
 import { Twocomp } from "./components/Twocomp";
+import UseCb from "./UseCb";
 
 export const ThemeContext = createContext();
 
@@ -47,7 +47,7 @@ function App() {
       <Route path="Quotes/:username" element={<Quotes/>}></Route>
       <Route path="UsersCard" element={<UsersCard/>}></Route>
       <Route path="UseRefHook" element={<UserefHook/>}></Route>
-      <Route path="UseCallBack" element={<UseCallBack/>}></Route>
+      <Route path="UseCallBack" element={<UseCb/>}></Route>
       <Route path="TaskManager" element={<TaskManager/>}></Route>
       <Route path="*" element={<ErrorNotFound/>}></Route>
      </Routes>

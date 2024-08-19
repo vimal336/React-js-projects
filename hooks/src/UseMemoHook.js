@@ -4,6 +4,9 @@ export const UseMemoHook = () => {
   const [number, setNumber] = useState(0);
   const [dark, SetDark] = useState(false);
 
+  
+  //const doubleNumber = slowFunction(number);
+
   const doubleNumber = useMemo(()=>{
     return slowFunction(number)
   },[number])
