@@ -54,7 +54,7 @@ function App() {
      </BrowserRouter>
 
 
-     <ThemeContext.Provider value={{theme,}}>
+     <ThemeContext.Provider value={{theme,ji}}>
      <User/>
      <button onClick={toggleTheme}>Change Theme</button>
      <h1>{theme}</h1>
