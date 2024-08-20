@@ -26,8 +26,7 @@
 //     </div>
 //   );
 // };
-
-// export default Quotes;
+ export default Quotes;
 
 
 import React, { useEffect, useState } from 'react'
