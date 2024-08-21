@@ -50,6 +50,7 @@ function App() {
       <Route path="UseCallBack" element={<UseCb/>}></Route>
       <Route path="TaskManager" element={<TaskManager/>}></Route>
       <Route path="*" element={<ErrorNotFound/>}></Route>
+      <Route path="*" element={<ErrorNotFound/>}></Route>
      </Routes>
      </BrowserRouter>
 
