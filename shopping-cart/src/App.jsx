@@ -13,6 +13,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="Cart" element={<Cart/>} />
+        <Route path="Cart" element={<Cart/>} />
         </Routes>
        </div>
       </BrowserRouter>
