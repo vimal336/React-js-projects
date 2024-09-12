@@ -42,7 +42,7 @@ function App() {
       <Route path="UseStateHook" element={<UseStateHook/>}></Route>
       <Route path="UseeffectHook" element={<Useeffecthook/>}></Route>
       <Route path="UseLayoutEff" element={<UseLayoutEff/>}></Route>
-      <Route path="Todos" element={<Todos/>}></Route>
+      {/* <Route path="Todos" element={<Todos/>}></Route> */}
       <Route path="UseMemoHook" element={<UseMemoHook/>}></Route>
       <Route path="Quotes/:username" element={<Quotes/>}></Route>
       <Route path="UsersCard" element={<UsersCard/>}></Route>
