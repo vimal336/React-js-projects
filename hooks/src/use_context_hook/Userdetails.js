@@ -8,7 +8,7 @@ export const Userdetails = ({theme}) => {
   
   return (
     <>
-    <div>User details</div>
+    <div>User </div>
     <UserInfo/>
     </>
   )
