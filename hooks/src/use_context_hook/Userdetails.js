@@ -1,5 +1,5 @@
 
-// import { UserInfo } from './UserInfo';
+import { UserInfo } from './UserInfo';
 
 
 
