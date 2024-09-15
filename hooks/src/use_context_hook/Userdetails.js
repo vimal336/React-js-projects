@@ -4,7 +4,7 @@ import { UserInfo } from './UserInfo';
 
 
 
-// export const Userdetails = ({theme}) => {
+export const Userdetails = ({theme}) => {
   
   return (
     <>
