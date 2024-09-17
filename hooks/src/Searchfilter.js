@@ -2,8 +2,13 @@ import React, { useState } from 'react';
 
 import React from 'react'
 
-export const Searchfilter = () => {
-  return (
-    <div>Searchfilter</div>
-  )
-}
+const SearchFilter = () => {
+  const [query, setQuery] = useState('');
+  const [data, setData] = useState([
+    'Apple',
+    'Banana',
+    'Cherry',
+    'Date',
+    'Fig',
+    'Grape'
+  ]);
