@@ -5,7 +5,7 @@ const SearchFilter = () => {
   const [data, setData] = useState([
     'Apple',
     'Banana',
-    'Cherry',
+    '',
     'Date',
     'Fig',
     'Grape'
