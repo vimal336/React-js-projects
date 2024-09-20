@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 
+
 const SearchFilter = () => {
   const [query, setQuery] = useState('');
-  const [data, setData] = useState([
+  const data = [
     'Apple',
     'Banana',
     'Cherry',
-    'guava',
     'Date',
     'Fig',
-    'Grape'
-  ]);
+    'Grape',
+    'Honeydew',
+  ];
