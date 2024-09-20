@@ -7,5 +7,7 @@ const SearchFilter = () => {
     'Banana',
     'Cherry',
     'guava',
-
+    'Date',
+    'Fig',
+    'Grape'
   ]);
