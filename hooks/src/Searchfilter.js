@@ -9,5 +9,4 @@ const SearchFilter = () => {
     'guava',
     'Date',
     'Fig',
-    'Grape'
   ]);
