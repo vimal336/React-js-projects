@@ -11,4 +11,10 @@ const SearchFilter = () => {
     'Date',
     'Fig',
   ]);
-raf
+import React from 'react'
+
+export const Searchfilter = () => {
+  return (
+    <div>Searchfilter</div>
+  )
+}
