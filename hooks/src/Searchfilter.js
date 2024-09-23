@@ -15,6 +15,6 @@ import React from 'react'
 
 export const Searchfilter = () => {
   return (
-    <div></div>
+    <div>Searchfilter</div>
   )
 }
