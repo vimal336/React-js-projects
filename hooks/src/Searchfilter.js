@@ -11,7 +11,7 @@ const SearchFilter = () => {
     'Date',
     'Fig',
   ]);
-import React from 'react'
+ React from 'react'
 
 export const Searchfilter = () => {
   return (
