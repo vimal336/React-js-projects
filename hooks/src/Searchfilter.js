@@ -13,11 +13,8 @@ const SearchFilter = () => {
   ]);
 
 
-  
+export const Searchfilter = () => {
   return (
-    <>
-    <div>User details</div>
-    <UserInfo/>
-    </>
+    <div>Searchfilter</div>
   )
 }
