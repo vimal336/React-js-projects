@@ -15,6 +15,6 @@ const SearchFilter = () => {
 
 export const Searchfilter = () => {
   return (
-    <div>Searchfilter</div>
+    <div>Search filter </div>
   )
 }
