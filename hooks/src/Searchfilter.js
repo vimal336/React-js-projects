@@ -15,6 +15,6 @@ const SearchFilter = () => {
 
 export const Searchfilter = () => {
   return (
-    <div>Search filter </div>
+    <div>hooks Search filter </div>
   )
 }
