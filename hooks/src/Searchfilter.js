@@ -11,3 +11,10 @@ const Searchfilter = () => {
   ]);
 
     const [filteredItems, setFilteredItems] = useState(items);
+
+  const handleSearch = (e) => {
+    const term = e.target.value.toLowerCase();
+    setSearchTerm(term);
+    const filtered = items.filter((item) => item.name.toLowerCase().includes(term));
+    setFilteredItems(filtered);
+  };
