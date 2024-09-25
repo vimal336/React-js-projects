@@ -23,5 +23,11 @@ const Searchfilter = () => {
   return (
     <div className="max-w-md mx-auto p-4 mt-10 bg-white rounded-md shadow-md">
       <input
+       type="search"
+        value={searchTerm}
+        onChange={handleSearch}
+        placeholder="Search..."
+        className="w-full p-2 pl-10 text-sm text-gray-700 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+      />
 
   )
