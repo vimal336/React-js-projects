@@ -9,3 +9,5 @@ const Searchfilter = () => {
     { id: 4, name: 'Date' },
     { id: 5, name: 'Elderberry' },
   ]);
+
+    const [filteredItems, setFilteredItems] = useState(items);
