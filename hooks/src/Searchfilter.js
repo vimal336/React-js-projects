@@ -18,3 +18,10 @@ const Searchfilter = () => {
     const filtered = items.filter((item) => item.name.toLowerCase().includes(term));
     setFilteredItems(filtered);
   };
+
+
+  return (
+    <div className="max-w-md mx-auto p-4 mt-10 bg-white rounded-md shadow-md">
+      <input
+
+  )
