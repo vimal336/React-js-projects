@@ -27,7 +27,7 @@ const Searchfilter = () => {
         value={searchTerm}
         onChange={handleSearch}
         placeholder="Search..."
-        className="w-full p-4 pl-10 text-sm text-blue-700 border border-gray-500 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+        className="w-full p-8 pl-10 text-sm text-blue-700 border border-gray-500 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
       />
 
   )
