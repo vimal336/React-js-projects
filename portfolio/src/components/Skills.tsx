@@ -34,7 +34,7 @@ const skillCategories = [
     title: 'Tools & Others',
     icon: <Terminal className="w-6 h-6" />,
     skills: [
-      { name: 'Git', level: 90 },
+      { name: 'Git', level: 80 },
     ],
   },
 ];
