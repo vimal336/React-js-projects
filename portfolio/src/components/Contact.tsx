@@ -76,7 +76,7 @@ const Contact = () => {
               <MessageSquare className="text-green-500" size={24} />
               <div>
                 <h3 className="font-semibold">Whatsapp Or Call</h3>
-                <p className="text-gray-600">Let's Connect</p>
+                <p className="text-gray-600">Let's </p>
               </div>
             </a>
           </div>
