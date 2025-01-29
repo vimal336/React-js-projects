@@ -14,7 +14,7 @@ const Footer = () => {
             <a href="https://github.com/vimal336" target="_blank" rel="noopener noreferrer" className="footer-social-link">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/vimal-s-bbaaa3214/" target="_blank" rel="noopener noreferrer" className="footer-social-link">
+            <a href="https://www.linkedin.com/in/vimalsiva" target="_blank" rel="noopener noreferrer" className="footer-social-link">
               <Linkedin size={20} />
             </a>
             <a href="mailto:asvimal336@gmail.com" className="footer-social-link">

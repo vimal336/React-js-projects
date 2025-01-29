@@ -15,7 +15,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-white">
+    <section id="contact" className="py-24 bg-white dark:bg-black">
       <div className="container mx-auto px-6">
         <h2 className="section-title">Get in Touch</h2>
         
@@ -64,7 +64,7 @@ const Contact = () => {
           </form> */}
 
           <div className="mt-12 grid md:grid-cols-2 gap-6">
-            <a href="mailto:asvimal336@gmail.com" className="contact-card">
+            <a href="mailto:asvimal336@gmail.com" className="contact-card dark:bg-gray-300">
               <Mail className="text-blue-500" size={24} />
               <div>
                 <h3 className="font-semibold">Email</h3>
@@ -72,7 +72,7 @@ const Contact = () => {
               </div>
             </a>
             
-            <a href="tel:8778402315" className="contact-card">
+            <a href="tel:8778402315" className="contact-card dark:bg-gray-300">
               <MessageSquare className="text-green-500" size={24} />
               <div>
                 <h3 className="font-semibold">Whatsapp Or Call</h3>

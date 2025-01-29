@@ -24,13 +24,13 @@ const Header = () => {
 
           <div className="hidden md:flex items-center space-x-4">
             <ThemeToggle />
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://github.com/vimal336" target="_blank" rel="noopener noreferrer" className="social-icon">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://www.linkedin.com/in/vimalsiva" target="_blank" rel="noopener noreferrer" className="social-icon">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:your.email@example.com" className="social-icon">
+            <a href="mailto:asvimal336@gmail.com" className="social-icon">
               <Mail size={20} />
             </a>
           </div>
