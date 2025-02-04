@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import
+import Crud from './crud'
 
 function App() {
   return (
     <>
-     
+     <Crud/>
        
     </>
   )
